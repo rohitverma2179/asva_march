@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import imgAsva from "../../assets/ASVA_Logo.png";
 import { Link } from 'react-router-dom';
+import reportPdf from "../../assets/KEVVALI FOOD_AND_BEVERAGES_PRIVATE_LIMITED_0002.pdf";
+
 export const Footer: React.FC = () => {
 
     useEffect(() => {
@@ -19,6 +21,7 @@ export const Footer: React.FC = () => {
                         <Link to="/blog" className="hover:text-blue-600  transition-colors">Blog</Link>
                         <Link to="/services" className="hover:text-blue-600  transition-colors">services</Link>
                         <Link to="/subscription" className="hover:text-blue-600  transition-colors">Subscription</Link>
+                        <a href={reportPdf} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">Report</a>
                     </nav>
 
                     {/* Center: Logo */}

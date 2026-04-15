@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1118.27 1388.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-1" d="M1014.94,90.43h-400.5c-30.55,0-55.31,24.76-55.31,55.31v229.49c0,46.5-37.69,84.19-84.19,84.19H74.44c-30.55,0-55.31,24.76-55.31,55.31v571.52c0,46.5,37.69,84.19,84.19,84.19h911.62c46.5,0,84.19-37.69,84.19-84.19V174.62c0-46.5-37.69-84.19-84.19-84.19Z"/>
+    </clipPath>
+  </defs>
+  <g class="cls-2">
+    <image width="928" height="1152" transform="scale(1.21)" xlink:href="../../../../../../../../Users/swastixagraphics/Downloads/8c7fd0f4daeb0a6f6de9738792fd4b865b6001c0.png"/>
+  </g>
+</svg>
