@@ -4,7 +4,6 @@ import { Hero } from '../components/HomeSection/Hero';
 import { BrandIntro } from '../components/HomeSection/BrandIntro';
 import { BrandStory } from '../components/HomeSection/BrandStory';
 import { LeadingChange } from '../components/HomeSection/LeadingChange';
-import { BlogSection } from '../components/HomeSection/BlogSection';
 import { FeaturedBanner } from '../components/HomeSection/FeaturedBanner';
 import { Footer } from '../components/layout/Footer';
 
@@ -23,9 +22,9 @@ export const HomePage: React.FC = () => {
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <LeadingChange />
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000">
+                {/* <div data-aos="fade-up" data-aos-duration="1000">
                     <BlogSection />
-                </div>
+                </div> */}
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <FeaturedBanner />
                 </div>

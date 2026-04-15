@@ -5,10 +5,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ShopPage } from './pages/Shop/ShopPage';
 import { ProductPage } from './pages/Product/ProductPage';
+// import { Aboutpage } from './pages/Product/Abo';
 import { BlogPage } from './pages/Blog/BlogPage';
 import { BlogInnerPage } from './components/Blog/BlogInnerPage';
 import { SubscriptionPage } from './pages/Subscription/SubscriptionPage';
 import { ServicesPage } from './pages/Services/ServicesPage';
+import About from './pages/AboutPage/About';
 
 // import AdminLayout from './pages/Admin/AdminLayout';
 // import DashBoard from './pages/Admin/DashBoard';
@@ -31,6 +33,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/services" element={<ServicesPage />} />
+        <Route path="/about" element={<About />} />
         <Route path="/ProductPage" element={<ShopPage />} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/blog" element={<BlogPage />} />

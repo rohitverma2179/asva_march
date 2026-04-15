@@ -13,8 +13,10 @@ interface StaggeredMenuProps {
 const menuItems = [
     { title: 'Home', path: '/' },
     { title: 'Shop', path: '/shop' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
-    { title: 'Blog', path: '/blog' },
     { title: 'Services', path: '/services' },
+    { title: 'ProductPage', path: '/productpage' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
+    { title: 'About', path: '/about' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
+    { title: 'Blog', path: '/blog' },
     { title: 'Subscription', path: '/subscription' },
 ];
 
@@ -54,7 +56,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                             </button>
                         </div>
 
-                        <nav className="flex-1 px-12 sm:px-16 pt-12 flex flex-col gap-8 relative z-10">
+                        <nav className="flex-1 px-12 sm:px-16 pt-0 flex flex-col gap-8 relative z-10">
                             {menuItems.map((item, index) => (
                                 <motion.div
                                     key={item.title}
@@ -74,7 +76,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                                         <span className="text-sm font-bold text-[#00659e] opacity-0 group-hover:opacity-100 transition-all -translate-x-4 group-hover:translate-x-0">
                                             0{index + 1}
                                         </span>
-                                        <span className="text-4xl sm:text-5xl font-xs text-gray-900 group-hover:text-[#00659e] transition-colors duration-300">
+                                        <span className="text-4xl sm:text-3xl font-xs text-gray-900 group-hover:text-[#00659e] transition-colors duration-300">
                                             {item.title}
                                         </span>
                                     </Link>
@@ -85,7 +87,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.1 * menuItems.length + 0.3 }}
-                                className="mt-12 ml-7 flex gap-6"
+                                className="mt-0 ml-7 flex gap-6"
                             >
                                 <a
                                     href="https://instagram.com"
