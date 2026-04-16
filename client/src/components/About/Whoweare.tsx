@@ -70,7 +70,7 @@ const Whoweare: React.FC = () => {
                     <h2 className="text-lg md:text-xl text-gray-900 mb-4 font-[500]">
                       Precision in every drop.
                     </h2>
-
+ 
                     <p className="text-sm text-gray-700 leading-relaxed italic">
                       ASVA water is purified through advanced multi-stage processes.
                       <br />
