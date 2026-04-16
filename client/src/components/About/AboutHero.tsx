@@ -28,10 +28,12 @@ const AboutHero: React.FC = () => {
         <p
           className="col-start-3 col-end-4 row-start-2 font-['Kantumruy'] font-normal text-[20px]  text-[#393939] tracking-[0%] m-0 p-0"
         >
-          Ultra-premium iceberg water from Svalbard <br />
+          {/* Ultra-premium iceberg water from Svalbard 
           helping fight climate change . Ultra-premium <br />
           iceberg water from Svalbard helping fight <br />
-          climate change
+          climate change */}
+
+          ASVA offers high-quality alkaline water <br /> with balanced pH, delivering clean, safe, <br /> and refreshing hydration for everyday wellness.
         </p>
 
         {/* Image */}
