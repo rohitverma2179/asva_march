@@ -28,12 +28,11 @@ const Ourstory: React.FC = () => {
                 className="col-start-3 row-start-2 bg-white p-[40px] flex flex-col justify-center shadow-[0_10px_30px_rgba(0,0,0,0.1)] w-[381px] h-[226px] z-10"
             >
                 <h3 className="font-['Kalnia'] font-medium text-[18px] leading-[120%] mb-[15px] capitalize-none" style={{ textTransform: 'none' }}>
-                    Expert Care & Maintenance, <br /> Expert Care & Maintenance
+                    Water, reimagined for modern living. 
                 </h3>
                 <p className="font-['Kantumruy'] text-[12px] leading-[150%] text-[#393939] m-0">
-                    Ultra-premium iceberg water from Svalbard helping fight climate change . 
-                    Ultra-premium iceberg water from Svalbard helping fight climate change .
-                    Ultra-premium iceberg water from Svalbard helping fight climate change
+                   ASVA began with a simple belief. Water should do more than just quench thirst.
+In today's fast-paced lifestyle, imbalance is common. Fatigue, acidity, and poor hydration have become routine. We saw the need for something better.
                 </p>
             </div>
         </section>
@@ -43,7 +42,8 @@ const Ourstory: React.FC = () => {
             <div className="max-w-306 mx-auto">
                 <div className="flex flex-col items-center mb-12 md:mb-16">
                     <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] leading-tight text-black mb-4 relative inline-block text-center">
-                        Our Story & Maintenance
+                        Built with purpose. Designed for consistency.
+                        <div className="w-24 h-1 bg-[#FFC700] mx-auto mt-2"></div>
                     </h2>
                 </div>
 
@@ -52,9 +52,7 @@ const Ourstory: React.FC = () => {
                     <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
                         <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">01.</span>
                         <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
-                            Svalbarði is carbon neutral-certified. The company invests in a carbon-offsetting scheme, 
-                            which supports projects around the world. These have included a wind farm in western China, 
-                            and upgrades to local water infrastructure in Uganda and Malawi.
+                        Advanced purification forms the core of every bottle. Multi-stage filtration removes impurities with precision. While maintaining a clean and balanced composition. Ensuring safe, reliable hydration you can trust daily.
                         </p>
                     </div>
 
@@ -62,9 +60,7 @@ const Ourstory: React.FC = () => {
                     <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
                         <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">02.</span>
                         <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
-                            Our pure drinking water is produced in an entirely sustainable manner. 
-                            We take pride in our environmental footprint and strive to minimize impact 
-                            while delivering the highest quality water to your doorstep.
+                        Strict quality control is followed at every stage. From sourcing to filtration and final bottling. Each batch is monitored for safety and consistency. Delivering uniform standards across every bottle.
                         </p>
                     </div>
 
@@ -72,9 +68,7 @@ const Ourstory: React.FC = () => {
                     <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
                         <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">03.</span>
                         <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
-                            Expert care and maintenance are the pillars of our operation. 
-                            Every bottle reflects our dedication to your health and the planet's future, 
-                            ensuring a better tomorrow for all.
+                        Carefully developed for everyday consumption. A clean, smooth profile with balanced properties. Designed to support better hydration habits. Seamlessly fitting into modern, active lifestyles.
                         </p>
                     </div>
                 </div>

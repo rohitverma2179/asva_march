@@ -9,16 +9,12 @@ const OurCommitment: React.FC = () => {
                 
                 {/* Left: Content */}
                 <div className="flex flex-col space-y-6 text-center lg:text-left">
-          <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] leading-tight text-black">
-            Our Commitment
-          </h2>
-          <p className="font-['Kantumruy'] text-[14px] md:text-[16px] leading-[1.6] text-[#393939] max-w-[500px] mx-auto lg:mx-0 opacity-90">
-            We are committed to maintaining the highest standards
-            in consistent quality, safety, trust, hygiene, and
-            customer satisfaction. Every step — from purification
-            to packaging — is designed to ensure that you receive
-            water you can trust.
-          </p>
+                    <h2 className="font-['Kalnia'] text-[48px] md:text-[64px] leading-tight text-black">
+                        Our Commitment
+                    </h2>
+                    <p className="font-['Kantumruy'] text-[18px] md:text-[22px] leading-[1.6] text-[#393939] max-w-[550px] mx-auto lg:mx-0">
+                        We are committed to maintaining the highest standards in consistent quality, safety , trust ,hygiene, and customer satisfaction. Every step from purification to packaging is designed to ensure that you receive water you can trust.
+                    </p>
                 </div>
 
         {/* Right: Overlapping Images */}
