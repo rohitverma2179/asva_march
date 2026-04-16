@@ -3,15 +3,24 @@ import aboutHero from "../../assets/Aboutimages/ASVA.png";
 
 const AboutHero: React.FC = () => {
   return (
-    <section className="w-full bg-white overflow-x-hidden pt-[100px] pb-[100px]">
+    <section className="w-full bg-white overflow-x-hidden pt-10 pb-10 lg:pt-[100px] lg:pb-[100px]">
+      <div className="lg:hidden flex flex-col items-center px-6 text-center space-y-6">
+        <h1 className="font-['Kalnia'] font-medium text-[36px] leading-tight text-black">
+          Pure Alkaline Water for Better Everyday Hydration
+        </h1>
+        <p className="font-['Kantumruy'] font-normal text-[16px] text-[#393939]">
+          Ultra-premium iceberg water from Svalbard helping fight climate change.
+        </p>
+        <img src={aboutHero} alt="About Hero" className="w-full max-w-[320px] rounded-[20px] shadow-lg" />
+      </div>
+
       <div
-        className="grid grid-cols-[159px_3px_423px_241px_172px_312px] grid-rows-[172px_29px_144px_139px]"
+        className="hidden lg:grid grid-cols-[minmax(40px,159px)_3px_minmax(300px,423px)_minmax(100px,241px)_minmax(100px,172px)_312px] grid-rows-[172px_29px_144px_139px]"
       >
         {/* Heading */}
         <h1
           className="col-start-2 col-end-6 row-start-1 font-['Kalnia'] font-medium text-[64px] leading-none tracking-[0%] m-0 p-0 text-black normal-case"
         >
-
           Pure Alkaline Water for Better <br /> Everyday Hydration
         </h1>
 

@@ -1,0 +1,73 @@
+import React from "react";
+import blog2 from "../../assets/blog/blog_2.jpg";
+import addsAsva from "../../assets/home/adds_asva.png";
+import grothImg from "../../assets/home/groth_section.png";
+import leadingBg from "../../assets/HomeImg/Leading_bg.png";
+
+/**
+ * PartnerSupport Component
+ * Features a 2x2 grid of wide images matching the provided design.
+ * Maintains consistency with the top section's spacing and typography.
+ */
+const PartnerSupport: React.FC = () => {
+  return (
+    <section className="w-full bg-white py-12 md:py-20 lg:py-24 px-8 lg:px-32 overflow-hidden">
+      <div className="max-w-[1280px] mx-auto px-4 md:px-12 lg:px-20">
+        
+        {/* Header Section */}
+        <div className="mb-10 lg:mb-2">
+          <span className="font-['Kantumruy'] text-[12px] md:text-[14px] text-gray-400 block mb-1 uppercase tracking-widest opacity-80">
+            Support We Provide
+          </span>
+          <h2 className="font-['Kalnia'] font-medium text-[32px] sm:text-[44px] lg:text-[48px] xl:text-[40px] leading-[1.1] text-black">
+            Expert Care & <br />
+            Maintenance
+          </h2>
+        </div>
+
+        {/* Horizontal Image Grid (2x2) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-6">
+          
+          {/* Image Card 1 */}
+          <div className="w-full aspect-[531/242] overflow-hidden rounded-[4px] shadow-md group">
+            <img 
+              src={blog2} 
+              alt="Care Image 1" 
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+
+          {/* Image Card 2 */}
+          <div className="w-full aspect-[531/242] overflow-hidden rounded-[4px] shadow-md group">
+            <img 
+              src={addsAsva} 
+              alt="Care Image 2" 
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            /> 
+          </div> 
+
+          {/* Image Card 3 */}
+          <div className="w-full aspect-[531/242] overflow-hidden rounded-[4px] shadow-md group">
+            <img 
+              src={grothImg} 
+              alt="Care Image 3" 
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+
+          {/* Image Card 4 */}
+          <div className="w-full aspect-[531/242] overflow-hidden rounded-[4px] shadow-md group">
+            <img 
+              src={leadingBg} 
+              alt="Care Image 4" 
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default PartnerSupport;

@@ -2,26 +2,26 @@ import React from "react";
 
 const MissionVision: React.FC = () => {
     return (
-        <section className="w-full bg-white py-24 px-4 sm:px-10 lg:px-20 overflow-hidden">
+        <section className="w-full bg-white py-16 lg:py-24 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 overflow-hidden">
             <div className="max-w-[1224px] mx-auto">
                 {/* Heading */}
-                <div className="flex flex-col items-center text-center mb-20">
-                    <h2 className="font-['Kalnia'] text-[48px] md:text-[64px] leading-tight text-black mb-6">
+                <div className="flex flex-col items-center text-center mb-12 lg:mb-20 px-4">
+                    <h2 className="font-['Kalnia'] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] leading-tight text-black mb-6">
                         Mission & Vision
                     </h2>
-                    <p className="font-['Kantumruy'] text-[14px] leading-[1.6] text-[#393939] max-w-[500px]">
+                    <p className="font-['Kantumruy'] text-[14px] leading-[1.6] text-[#393939] max-w-[600px]">
                         Ultra-premium iceberg water from Svalbard helping fight climate change . 
                         Ultra-premium iceberg water from Svalbard helping fight climate change
                     </p>
                 </div>
 
                 {/* Content with Yellow Divider */}
-                <div className="relative grid grid-cols-1 md:grid-cols-[1fr_2px_1fr] gap-0 items-start">
+                <div className="relative grid grid-cols-1 lg:grid-cols-[1fr_2px_1fr] gap-12 lg:gap-0 items-start">
                     
                     {/* Left Column: Mission & Vision */}
-                    <div className="pr-0 md:pr-16 flex flex-col space-y-8">
+                    <div className="pr-0 lg:pr-16 flex flex-col space-y-8 px-4 sm:px-0">
                         <div>
-                            <h3 className="font-['Kalnia'] text-[32px] mb-4 text-black">
+                            <h3 className="font-['Kalnia'] text-[24px] lg:text-[32px] mb-4 text-black">
                                 Mission & Vision
                             </h3>
                             <p className="font-['Kantumruy'] text-[16px] leading-[1.6] text-[#393939]">
@@ -46,12 +46,13 @@ const MissionVision: React.FC = () => {
                     </div>
 
                     {/* Yellow Vertical Divider */}
-                    <div className="hidden md:block w-[4px] bg-[#FFC700] h-full justify-self-center"></div>
+                    <div className="hidden lg:block w-[4px] bg-[#FFC700] h-full justify-self-center self-stretch"></div>
+                    <div className="lg:hidden w-full h-[4px] bg-[#FFC700]"></div>
 
                     {/* Right Column: Future Plans */}
-                    <div className="pl-0 md:pl-16 mt-16 md:mt-0 flex flex-col space-y-8">
+                    <div className="pl-0 lg:pl-16 mt-0 flex flex-col space-y-8 px-4 sm:px-0">
                         <div>
-                            <h3 className="font-['Kalnia'] text-[32px] mb-4 text-black">
+                            <h3 className="font-['Kalnia'] text-[24px] lg:text-[32px] mb-4 text-black">
                                 Mission & Vision (Future Plans)
                             </h3>
                             <p className="font-['Kantumruy'] text-[16px] leading-[1.6] text-[#393939]">
@@ -75,7 +76,6 @@ const MissionVision: React.FC = () => {
                             ))}
                         </ul>
                     </div>
-
                 </div>
             </div>
         </section>

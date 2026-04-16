@@ -11,6 +11,7 @@ import { BlogInnerPage } from './components/Blog/BlogInnerPage';
 import { SubscriptionPage } from './pages/Subscription/SubscriptionPage';
 import { ServicesPage } from './pages/Services/ServicesPage';
 import About from './pages/AboutPage/About';
+import Partner from './pages/Partnerpage/Partner';
 
 // import AdminLayout from './pages/Admin/AdminLayout';
 // import DashBoard from './pages/Admin/DashBoard';
@@ -34,6 +35,7 @@ function App() {
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/partner" element={<Partner />} />
         <Route path="/ProductPage" element={<ShopPage />} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/blog" element={<BlogPage />} />
