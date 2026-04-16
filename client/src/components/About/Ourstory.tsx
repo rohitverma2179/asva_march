@@ -44,14 +44,13 @@ const Ourstory: React.FC = () => {
                 <div className="flex flex-col items-center mb-12 md:mb-16">
                     <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] leading-tight text-black mb-4 relative inline-block text-center">
                         Our Story & Maintenance
-                        <div className="w-24 h-1 bg-[#FFC700] mx-auto mt-2"></div>
                     </h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
                     {/* Column 1 */}
                     <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
-                        <span className="font-['Kalnia'] font-bold text-[24px] text-[#FFC700] mb-4">01.</span>
+                        <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">01.</span>
                         <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
                             Svalbarði is carbon neutral-certified. The company invests in a carbon-offsetting scheme, 
                             which supports projects around the world. These have included a wind farm in western China, 
@@ -61,7 +60,7 @@ const Ourstory: React.FC = () => {
 
                     {/* Column 2 */}
                     <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
-                        <span className="font-['Kalnia'] font-bold text-[24px] text-[#FFC700] mb-4">02.</span>
+                        <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">02.</span>
                         <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
                             Our pure drinking water is produced in an entirely sustainable manner. 
                             We take pride in our environmental footprint and strive to minimize impact 
@@ -71,7 +70,7 @@ const Ourstory: React.FC = () => {
 
                     {/* Column 3 */}
                     <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
-                        <span className="font-['Kalnia'] font-bold text-[24px] text-[#FFC700] mb-4">03.</span>
+                        <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">03.</span>
                         <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
                             Expert care and maintenance are the pillars of our operation. 
                             Every bottle reflects our dedication to your health and the planet's future, 

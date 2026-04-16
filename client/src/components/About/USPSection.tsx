@@ -15,7 +15,7 @@ const USPSection: React.FC = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                     {/* Left: Image */}
                     <div className="rounded-[20px] overflow-hidden shadow-2xl transition-transform duration-700 hover:scale-[1.02]">
-                        <img 
+                        <img
                             src={uspImg} 
                             alt="ASVA USP" 
                             className="w-full h-auto object-cover"

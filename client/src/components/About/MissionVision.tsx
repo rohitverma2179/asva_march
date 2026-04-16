@@ -46,8 +46,8 @@ const MissionVision: React.FC = () => {
                     </div>
 
                     {/* Yellow Vertical Divider */}
-                    <div className="hidden lg:block w-[4px] bg-[#FFC700] h-full justify-self-center self-stretch"></div>
-                    <div className="lg:hidden w-full h-[4px] bg-[#FFC700]"></div>
+                    <div className="hidden lg:block w-[1px] bg-[#000] h-full justify-self-center self-stretch"></div>
+                    <div className="lg:hidden w-full h-[4px] bg-[#000]"></div>
 
                     {/* Right Column: Future Plans */}
                     <div className="pl-0 lg:pl-16 mt-0 flex flex-col space-y-8 px-4 sm:px-0">

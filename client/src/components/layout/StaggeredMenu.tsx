@@ -14,7 +14,7 @@ const menuItems = [
     { title: 'Home', path: '/' },
     { title: 'Shop', path: '/shop' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
     { title: 'Services', path: '/services' },
-    { title: 'ProductPage', path: '/productpage' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
+    // { title: 'ProductPage', path: '/productpage' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
     { title: 'About', path: '/about' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
     { title: 'Partner', path: '/partner' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
     { title: 'Blog', path: '/blog' },
