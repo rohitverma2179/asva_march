@@ -56,7 +56,7 @@ const Whoweare: React.FC = () => {
                 <hr className="border-t border-gray-500 my-6 md:mx-8" />
 
                 {/* BOTTOM */}
-                <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10 md:px-8">
+                <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10 md:px-2">
                   
                   <div className="w-full md:w-72 flex-shrink-0">
                     <img
@@ -72,14 +72,11 @@ const Whoweare: React.FC = () => {
                     </h2>
 
                     <p className="text-sm text-gray-700 leading-relaxed italic">
-                      ASVA water is purified through advanced multi-stage
-                      processes.
+                      ASVA water is purified through advanced multi-stage processes.
                       <br />
-                      Strict quality control ensures consistency across every
-                      batch.
+                      Strict quality control ensures consistency across every batch.
                       <br />
-                      From sourcing to bottling, every step is designed for
-                      reliability.
+                      From sourcing to bottling, every step is designed for reliability.
                     </p>
                   </div>
                 </div>
@@ -99,7 +96,7 @@ const Whoweare: React.FC = () => {
                 <hr className="border-t border-gray-500 md:mx-8" />
 
                 {/* TOP */}
-                <div className="flex flex-col md:flex-row items-start gap-6 md:gap-10 md:px-8">
+                <div className="flex flex-col md:flex-row items-start gap-6 md:gap-10 md:px-2">
                   
                   <div className="flex-1">
                     <h2 className="text-lg md:text-xl mb-3 font-[500]">
@@ -107,10 +104,11 @@ const Whoweare: React.FC = () => {
                     </h2>
 
                     <p className="text-gray-900 leading-tight">
-                      We maintain strict standards across purification and
-                      packaging. Each batch is tested to ensure safety and
-                      reliability. The result is water that feels clean, smooth,
-                      and dependable.
+                     We maintain strict standards across purification and packaging.
+                      <br />
+                     Each batch is tested to ensure safety and reliability.
+                      <br />
+                     The result is water that feels clean, smooth, and dependable.
                     </p>
                   </div>
 
@@ -142,9 +140,11 @@ const Whoweare: React.FC = () => {
                     </h2>
 
                     <p className="text-sm text-gray-700 leading-relaxed italic">
-                      Designed for daily consumption across lifestyles. Whether
-                      at work, at the gym, or at home. Hydration that fits
-                      seamlessly into your routine.
+                     Designed for daily consumption across lifestyles.
+                      <br />
+                     Whether at work, at the gym, or at home.
+                      <br />
+                     Hydration that fits seamlessly into your routine.
                     </p>
                   </div>
                 </div>

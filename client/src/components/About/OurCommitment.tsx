@@ -13,11 +13,7 @@ const OurCommitment: React.FC = () => {
                         Our Commitment
                     </h2>
                     <p className="font-['Kantumruy'] text-[18px] md:text-[22px] leading-[1.6] text-[#393939] max-w-[550px] mx-auto lg:mx-0">
-                        We are committed to maintaining the highest standards 
-                        in consistent quality, safety, trust, hygiene, and 
-                        customer satisfaction. Every step — from purification 
-                        to packaging — is designed to ensure that you receive 
-                        water you can trust.
+                        We are committed to maintaining the highest standards in consistent quality, safety , trust ,hygiene, and customer satisfaction. Every step from purification to packaging is designed to ensure that you receive water you can trust.
                     </p>
                 </div>
 

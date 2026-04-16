@@ -9,7 +9,7 @@ const AboutHero: React.FC = () => {
           Pure Alkaline Water for Better Everyday Hydration
         </h1>
         <p className="font-['Kantumruy'] font-normal text-[16px] text-[#393939]">
-          Ultra-premium iceberg water from Svalbard helping fight climate change.
+          ASVA offers high-quality alkaline water with balanced pH, delivering clean, safe, and refreshing hydration for everyday wellness.
         </p>
         <img src={aboutHero} alt="About Hero" className="w-full max-w-[320px] rounded-[20px] shadow-lg" />
       </div>

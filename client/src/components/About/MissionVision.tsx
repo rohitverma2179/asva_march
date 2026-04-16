@@ -7,11 +7,10 @@ const MissionVision: React.FC = () => {
                 {/* Heading */}
                 <div className="flex flex-col items-center text-center mb-12 lg:mb-20 px-4">
                     <h2 className="font-['Kalnia'] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] leading-tight text-black mb-6">
-                        Mission & Vision
+                        Our Mission
                     </h2>
                     <p className="font-['Kantumruy'] text-[14px] leading-[1.6] text-[#393939] max-w-[600px]">
-                        Ultra-premium iceberg water from Svalbard helping fight climate change . 
-                        Ultra-premium iceberg water from Svalbard helping fight climate change
+                        Ultra-premium iceberg water from Svalbard helping fight climate change . Ultra-premium iceberg water from Svalbard helping fight climate change
                     </p>
                 </div>
 
@@ -25,8 +24,7 @@ const MissionVision: React.FC = () => {
                                 Mission & Vision
                             </h3>
                             <p className="font-['Kantumruy'] text-[16px] leading-[1.6] text-[#393939]">
-                                Our mission is to deliver clean, safe, and balanced alkaline water 
-                                that enhances everyday hydration and supports overall well-being.
+                                Our mission is to deliver clean, safe, and balanced alkaline water that enhances everyday hydration and supports overall well-being.
                             </p>
                         </div>
                         
@@ -35,7 +33,7 @@ const MissionVision: React.FC = () => {
                                 "Promoting better hydration habits",
                                 "Maintaining high-quality standards",
                                 "Making alkaline water accessible",
-                                "Building trust through consistency, transparency and standards."
+                                "Building trust through consistency ,transparency and standards."
                             ].map((item, index) => (
                                 <li key={index} className="font-['Kantumruy'] text-[14px] text-[#393939] flex items-start">
                                     <span className="mr-2 font-bold">{index + 1}.</span>
