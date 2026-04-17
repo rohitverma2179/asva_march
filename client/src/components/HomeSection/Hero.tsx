@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 // import imgBottle from "../../assets/bottle_png_.png";
 import imgBottle from "../../assets/home/hero_img_bottle.png"
 import shape from "../../assets/HomeImg/shap.png";
-import mashine from "../../assets/home/mashine_1.png";
+// import mashine from "../../assets/home/mashine_1.png";
 import { motion, AnimatePresence } from "framer-motion";
 // import { image } from 'framer-motion/client';
 

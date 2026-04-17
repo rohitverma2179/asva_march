@@ -1,5 +1,5 @@
 import AboutHero from "../../components/About/AboutHero"
-import AboutHeroMain from "../../components/About/AboutHeroMain"
+// import AboutHeroMain from "../../components/About/AboutHeroMain"
 import MissionVision from "../../components/About/MissionVision"
 import OurCommitment from "../../components/About/OurCommitment"
 import Ourstory from "../../components/About/Ourstory"

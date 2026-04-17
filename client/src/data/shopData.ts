@@ -78,29 +78,29 @@ import E_2_4 from '../assets/shop_img/E_2/mashine_1.png';
 // import E_3_3 from '../assets/shop_img/E_3/E_3_3.png';
 // import E_3_4 from '../assets/shop_img/E_3/E_3_4.png';
 
-// Filter Images
-import F_1 from '../assets/shop_img/F_1/F_1.png';
-import F_1_2 from '../assets/shop_img/F_1/F_1_2.png';
-import F_1_3 from '../assets/shop_img/F_1/F_1_3.png';
-import F_1_4 from '../assets/shop_img/F_1/F_1_4.png';
+// // Filter Images
+// import F_1 from '../assets/shop_img/F_1/F_1.png';
+// import F_1_2 from '../assets/shop_img/F_1/F_1_2.png';
+// import F_1_3 from '../assets/shop_img/F_1/F_1_3.png';
+// import F_1_4 from '../assets/shop_img/F_1/F_1_4.png';
 
-// F_2 and F_3 folders are empty, skipping imports for them.
+// // F_2 and F_3 folders are empty, skipping imports for them.
 
-// Accessory Images
-import H_1 from '../assets/shop_img/H_1/H_1.png';
-import H_1_2 from '../assets/shop_img/H_1/H_1_2.png';
-import H_1_3 from '../assets/shop_img/H_1/H_1_3.png';
-import H_1_4 from '../assets/shop_img/H_1/H_1_4.png';
+// // Accessory Images
+// import H_1 from '../assets/shop_img/H_1/H_1.png';
+// import H_1_2 from '../assets/shop_img/H_1/H_1_2.png';
+// import H_1_3 from '../assets/shop_img/H_1/H_1_3.png';
+// import H_1_4 from '../assets/shop_img/H_1/H_1_4.png';
 
-import H_2 from '../assets/shop_img/H_2/H_2.png';
-import H_2_2 from '../assets/shop_img/H_2/H_2_2.png';
-import H_2_3 from '../assets/shop_img/H_2/H_2_3.png';
-import H_2_4 from '../assets/shop_img/H_2/H_2_4.png';
+// import H_2 from '../assets/shop_img/H_2/H_2.png';
+// import H_2_2 from '../assets/shop_img/H_2/H_2_2.png';
+// import H_2_3 from '../assets/shop_img/H_2/H_2_3.png';
+// import H_2_4 from '../assets/shop_img/H_2/H_2_4.png';
 
-import H_3 from '../assets/shop_img/H_3/H_3.png';
-import H_3_2 from '../assets/shop_img/H_3/H_3_2.png';
-import H_3_3 from '../assets/shop_img/H_3/H_3_3.png';
-import H_3_4 from '../assets/shop_img/H_3/H_3_4.png';
+// import H_3 from '../assets/shop_img/H_3/H_3.png';
+// import H_3_2 from '../assets/shop_img/H_3/H_3_2.png';
+// import H_3_3 from '../assets/shop_img/H_3/H_3_3.png';
+// import H_3_4 from '../assets/shop_img/H_3/H_3_4.png';
 
 // Corporate Images
 import I_1 from '../assets/shop_img/i_1/i_1.png';
