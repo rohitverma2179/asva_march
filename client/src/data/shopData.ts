@@ -1,23 +1,23 @@
 // Glass Bottle Images
-import A_1 from '../assets/shop_img/A_1/A_1.png';
-import A_1_2 from '../assets/shop_img/A_1/A_1_2.png';
-import A_1_3 from '../assets/shop_img/A_1/A_1_3.png';
-import A_1_4 from '../assets/shop_img/A_1/A_1_4.png';
+// import A_1 from '../assets/shop_img/A_1/A_1.png';
+// import A_1_2 from '../assets/shop_img/A_1/A_1_2.png';
+// import A_1_3 from '../assets/shop_img/A_1/A_1_3.png';
+// import A_1_4 from '../assets/shop_img/A_1/A_1_4.png';
 
-import A_2 from '../assets/shop_img/A_2/A_2.png';
-import A_2_2 from '../assets/shop_img/A_2/A_2_2.png';
-import A_2_3 from '../assets/shop_img/A_2/A_2_3.png';
-import A_2_4 from '../assets/shop_img/A_2/A_2_4.png';
+// import A_2 from '../assets/shop_img/A_2/A_2.png';
+// import A_2_2 from '../assets/shop_img/A_2/A_2_2.png';
+// import A_2_3 from '../assets/shop_img/A_2/A_2_3.png';
+// import A_2_4 from '../assets/shop_img/A_2/A_2_4.png';
 
-import A_3 from '../assets/shop_img/A_3/A_3.png';
-import A_3_2 from '../assets/shop_img/A_3/A_3_2.png';
-import A_3_3 from '../assets/shop_img/A_3/A_3_3.png';
-import A_3_4 from '../assets/shop_img/A_3/A_3_4.png';
+// import A_3 from '../assets/shop_img/A_3/A_3.png';
+// import A_3_2 from '../assets/shop_img/A_3/A_3_2.png';
+// import A_3_3 from '../assets/shop_img/A_3/A_3_3.png';
+// import A_3_4 from '../assets/shop_img/A_3/A_3_4.png';
 
-import A_4 from '../assets/shop_img/A_4/A_4.png';
-import A_4_2 from '../assets/shop_img/A_4/A_4_2.png';
-import A_4_3 from '../assets/shop_img/A_4/A_4_3.png';
-import A_4_4 from '../assets/shop_img/A_4/A_4_4.png';
+// import A_4 from '../assets/shop_img/A_4/A_4.png';
+// import A_4_2 from '../assets/shop_img/A_4/A_4_2.png';
+// import A_4_3 from '../assets/shop_img/A_4/A_4_3.png';
+// import A_4_4 from '../assets/shop_img/A_4/A_4_4.png';
 
 // PET Bottle Images
 import B_1 from '../assets/shop_img/B_1/B_1.png';
@@ -25,10 +25,10 @@ import B_1_2 from '../assets/shop_img/B_1/B_1_2.png';
 import B_1_3 from '../assets/shop_img/B_1/B_1_3.png';
 import B_1_4 from '../assets/shop_img/B_1/B_1_4.png';
 
-import B_2 from '../assets/shop_img/B_2/B_2.png';
-import B_2_2 from '../assets/shop_img/B_2/B_2_2.png';
-import B_2_3 from '../assets/shop_img/B_2/B_2_3.png';
-import B_2_4 from '../assets/shop_img/B_2/B_2_4.png';
+// import B_2 from '../assets/shop_img/B_2/B_2.png';
+// import B_2_2 from '../assets/shop_img/B_2/B_2_2.png';
+// import B_2_3 from '../assets/shop_img/B_2/B_2_3.png';
+// import B_2_4 from '../assets/shop_img/B_2/B_2_4.png';
 
 import B_3 from '../assets/shop_img/B_3/B_3.png';
 import B_3_2 from '../assets/shop_img/B_3/B_3_2.png';
@@ -41,25 +41,25 @@ import B_4_3 from '../assets/shop_img/B_4/B_4_3.png';
 import B_4_4 from '../assets/shop_img/B_4/B_4_4.png';
 
 // Jar & Can Images
-import C_1 from '../assets/shop_img/C_1/C_1.png';
-import C_1_2 from '../assets/shop_img/C_1/C_1_2.png';
-import C_1_3 from '../assets/shop_img/C_1/C_1_3.png';
-import C_1_4 from '../assets/shop_img/C_1/C_1_4.png';
+// import C_1 from '../assets/shop_img/C_1/C_1.png';
+// import C_1_2 from '../assets/shop_img/C_1/C_1_2.png';
+// import C_1_3 from '../assets/shop_img/C_1/C_1_3.png';
+// import C_1_4 from '../assets/shop_img/C_1/C_1_4.png';
 
-import C_2 from '../assets/shop_img/C_2/C_2.png';
-import C_2_2 from '../assets/shop_img/C_2/C_2_2.png';
-import C_2_3 from '../assets/shop_img/C_2/C_2_3.png';
-import C_2_4 from '../assets/shop_img/C_2/C_2_4.png';
+// import C_2 from '../assets/shop_img/C_2/C_2.png';
+// import C_2_2 from '../assets/shop_img/C_2/C_2_2.png';
+// import C_2_3 from '../assets/shop_img/C_2/C_2_3.png';
+// import C_2_4 from '../assets/shop_img/C_2/C_2_4.png';
 
 // import C_3 from '../assets/shop_img/C_3/C_3.png';
 // import C_3_2 from '../assets/shop_img/C_3/C_3_2.png';
 // import C_3_3 from '../assets/shop_img/C_3/C_3_3.png';
 // import C_3_4 from '../assets/shop_img/C_3/20.png'; // Using 20.png as 4th image based on dir
 
-import C_4 from '../assets/shop_img/C_4/C_4.png';
-import C_4_2 from '../assets/shop_img/C_4/C_4_2.png';
-import C_4_3 from '../assets/shop_img/C_4/C_4_3.png';
-import C_4_4 from '../assets/shop_img/C_4/C_for.png'; // Using C_for.png as 4th image
+// import C_4 from '../assets/shop_img/C_4/C_4.png';
+// import C_4_2 from '../assets/shop_img/C_4/C_4_2.png';
+// import C_4_3 from '../assets/shop_img/C_4/C_4_3.png';
+// import C_4_4 from '../assets/shop_img/C_4/C_for.png'; // Using C_for.png as 4th image
 
 // // Machine Images
 // import E_1 from '../assets/shop_img/E_1/E_1.png';
