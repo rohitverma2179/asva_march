@@ -15,7 +15,7 @@ export const AboutAboutPlan: React.FC = () => {
                         <ul className="space-y-4 text-xs md:text-sm text-gray-800 font-medium leading-relaxed">
                             <li className="flex gap-2">
                                 <span>•</span>
-                                <span>Pick bottles or jars and choose pack size</span>
+                                <span>Pick bottles and choose pack size</span>
                             </li>
                             <li className="flex gap-2">
                                 <span>•</span>

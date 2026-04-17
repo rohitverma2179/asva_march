@@ -5,7 +5,7 @@ const SUBSCRIPTION_PLANS = [
     {
         id: 'ASVA-SUB-FAM-20L-08-DL',
         name: 'healthy Family Plan',
-        details: '20L × 8 Jars / Month',
+        details: '1L × 8 bottle / Month',
         mrp: 640,
         offerPrice: 600,
         sku: 'ASVA-SUB-FAM-20L-08-DL'
@@ -13,7 +13,7 @@ const SUBSCRIPTION_PLANS = [
     {
         id: 'ASVA-SUB-OFF-20L-20-DL',
         name: ' healthy Office Plan',
-        details: '20L × 20 Jars / Month',
+        details: '1L × 20 bottle / Month',
         mrp: 1600,
         offerPrice: 1440,
         sku: 'ASVA-SUB-OFF-20L-20-DL'
@@ -21,7 +21,7 @@ const SUBSCRIPTION_PLANS = [
     {
         id: 'ASVA-SUB-PRO-20L-40-DL',
         name: 'healthy Pro Plan',
-        details: '20L × 40 Jars / Month',
+        details: '1L × 40 bottle / Month',
         mrp: 3200,
         offerPrice: 2800,
         sku: 'ASVA-SUB-PRO-20L-40-DL'
@@ -83,7 +83,7 @@ export const SubscriptionForm: React.FC = () => {
                         <span className="text-[10px] text-gray-400 font-medium uppercase tracking-wide">Asva Packaged Drinking Water</span>
                         <h3 className="text-xl md:text-2xl font-serif text-black mt-1 mb-2">Core Subscription Plans</h3>
                         <p className="text-xs text-justify text-gray-500 leading-relaxed mb-6">
-                            Choose the perfect plan for your household or business. Our 20-litre jars are delivered with hygiene and quality at the forefront.
+                            Choose the perfect plan for your household or business. Our 1-litre jars are delivered with hygiene and quality at the forefront.
                         </p>
 
                         <div className="space-y-4 mb-8">
