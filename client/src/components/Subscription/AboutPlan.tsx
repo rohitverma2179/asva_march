@@ -1,6 +1,6 @@
 import React from 'react';
 // import Button from '../../assets/bottle_png_.png';
-import plain from '../../assets/bottle_png_.png'
+import plain from '../../assets/subscribe_img/sub3.png'
 // import subScribeImg from '../../assets/shop_img/C/AL_20L/'
 
 export const AboutAboutPlan: React.FC = () => {
