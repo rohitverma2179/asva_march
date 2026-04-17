@@ -48,13 +48,8 @@ export const Footer: React.FC = () => {
                         <div className="mb-6 flex flex-col items-start md:items-end">
                             <p className="uppercase font-bold tracking-widest mb-0 text-[14px] text-black">Office Address</p>
                             <p className="md:text-right text-gray-600">
-                                Plot No. 2-A, Kh. No. 51/1, Third Floor,
-                                <br />
-                                Jai Vihar, Najafgarh Road,
-                                <br />
-                                Near Sant Haridas School,
-
-                                Delhi - 110043
+                                KEVVALI FOOD AND BEVERAGES <br /> PRIVATE LIMITED
+Shop No .4 Plot No .39 <br /> Ist FLR, DEEP Cinema Comp <br /> North West Delhi -110052
                             </p>
                         </div>
 
