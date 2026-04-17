@@ -5,7 +5,7 @@ const SUBSCRIPTION_PLANS = [
     {
         id: 'ASVA-SUB-FAM-20L-08-DL',
         name: 'healthy Family Plan',
-        details: '20L × 8 Jars / Month',
+        details: '1L × 8 bottle / Month',
         mrp: 640,
         offerPrice: 600,
         sku: 'ASVA-SUB-FAM-20L-08-DL'
@@ -13,7 +13,7 @@ const SUBSCRIPTION_PLANS = [
     {
         id: 'ASVA-SUB-OFF-20L-20-DL',
         name: ' healthy Office Plan',
-        details: '20L × 20 Jars / Month',
+        details: '1L × 20 bottle / Month',
         mrp: 1600,
         offerPrice: 1440,
         sku: 'ASVA-SUB-OFF-20L-20-DL'
@@ -21,7 +21,7 @@ const SUBSCRIPTION_PLANS = [
     {
         id: 'ASVA-SUB-PRO-20L-40-DL',
         name: 'healthy Pro Plan',
-        details: '20L × 40 Jars / Month',
+        details: '1L × 40 bottle / Month',
         mrp: 3200,
         offerPrice: 2800,
         sku: 'ASVA-SUB-PRO-20L-40-DL'
