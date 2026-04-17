@@ -16,6 +16,7 @@ export const HomePage: React.FC = () => {
             <Header />
             <main>
                 <Hero />
+                <USPHeader />
                 <HomeSecondSection />
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <BrandIntro />
@@ -29,7 +30,6 @@ export const HomePage: React.FC = () => {
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <LeadingChange />
                 </div>
-                <USPHeader />
                 {/* <div data-aos="fade-up" data-aos-duration="1000">
                     <BlogSection />
                 </div> */}
