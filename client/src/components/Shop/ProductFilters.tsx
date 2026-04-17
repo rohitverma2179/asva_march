@@ -44,7 +44,7 @@ export const ProductFilters: React.FC<ProductFiltersProps> = ({
     // "Jars & Cans",
     "Machines",
     // "Filters",
-    "Accessories",
+    // "Accessories",
     // "Corporate",
   ];
 
