@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-// import BottleImage from '../../assets/bottle_png_.png';
-import formImage from '../../assets/subscribe_img/subss.png'
+import formImage from '../../assets/bottle_png_.png';
 
 const SUBSCRIPTION_PLANS = [
     {
         id: 'ASVA-SUB-FAM-20L-08-DL',
-        name: 'Family Plan',
+        name: 'healthy Family Plan',
         details: '20L × 8 Jars / Month',
         mrp: 640,
         offerPrice: 600,
@@ -13,7 +12,7 @@ const SUBSCRIPTION_PLANS = [
     },
     {
         id: 'ASVA-SUB-OFF-20L-20-DL',
-        name: 'Office Plan',
+        name: ' healthy Office Plan',
         details: '20L × 20 Jars / Month',
         mrp: 1600,
         offerPrice: 1440,
@@ -21,7 +20,7 @@ const SUBSCRIPTION_PLANS = [
     },
     {
         id: 'ASVA-SUB-PRO-20L-40-DL',
-        name: 'Pro Plan',
+        name: 'healthy Pro Plan',
         details: '20L × 40 Jars / Month',
         mrp: 3200,
         offerPrice: 2800,

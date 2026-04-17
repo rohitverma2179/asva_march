@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "../../assets/Aboutimages/1.jpg";
-import img2 from "../../assets/Aboutimages/2.jpg";
+import img1 from "../../assets/Aboutimages/newimg/handbottle.webp";
+import img2 from "../../assets/Aboutimages/newimg/img2.png";
 import img3 from "../../assets/Aboutimages/3.jpg";
-import img4 from "../../assets/Aboutimages/4.jpg";
-import img5 from "../../assets/Aboutimages/5.png";
-import img6 from "../../assets/Aboutimages/6.png";
+import img4 from "../../assets/Aboutimages/newimg/Consistency.png";
+import img5 from "../../assets/Aboutimages/newimg/Untitled-6.webp";
+import img6 from "../../assets/Aboutimages/newimg/img5.png";
 
 const Whoweare: React.FC = () => {
   return (

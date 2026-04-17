@@ -8,7 +8,8 @@ export const BrandIntro: React.FC = () => {
 
             </h2>
             <p className="text-[16px] text-gray-500 text-sm md:text-base px-2 sm:px-0 tracking-wide max-w-[850px] mx-auto">
-                Most customers manage multiple vendors for jars, bottles, dispensers and devices often with inconsistent quality. ASVA brings everything under one system: packaged alkaline water + refills + ionizers, so quality stays consistent and service stays reliable.
+                {/* Most customers manage multiple vendors for jars, bottles, dispensers and devices often with inconsistent quality. ASVA brings everything under one system: packaged alkaline water + refills + ionizers, so quality stays consistent and service stays reliable. */}
+                Most customers manage multiple vendors for water bottles, dispensers, and devices, often with inconsistent quality. ASVA brings everything under one system: packaged alkaline water bottles + ionizers, so quality stays consistent and service stays reliable.
             </p>
         </section>
     );

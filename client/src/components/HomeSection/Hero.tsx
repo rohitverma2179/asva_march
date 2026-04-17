@@ -23,11 +23,11 @@ const heroSlides: HeroSlide[] = [
 
         image: imgBottle,
     },
-    {
-        title: "Pure Hydration Premium Living",
-        description: "Smart alkaline purification machines that deliver clean, safe and great-tasting water, built for modern Indian kitchens and workplaces.",
-        image: mashine,
-    },
+    // {
+    //     title: "Pure Hydration Premium Living",
+    //     description: "Smart alkaline purification machines that deliver clean, safe and great-tasting water, built for modern Indian kitchens and workplaces.",
+    //     image: mashine,
+    // },
 ];
 // subDescription: ["", "", "", ""],
 

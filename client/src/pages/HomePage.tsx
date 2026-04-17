@@ -1,9 +1,12 @@
 import React from 'react';
 import { Header } from '../components/layout/Header';
 import { Hero } from '../components/HomeSection/Hero';
+import HomeSecondSection from '../components/HomeSection/homesecondsection';
 import { BrandIntro } from '../components/HomeSection/BrandIntro';
 import { BrandStory } from '../components/HomeSection/BrandStory';
+import Alkalinewater from '../components/HomeSection/Alkalinewater';
 import { LeadingChange } from '../components/HomeSection/LeadingChange';
+// import Alkalinewater from '../components/HomeSection/Alkalinewater';
 import { FeaturedBanner } from '../components/HomeSection/FeaturedBanner';
 import { Footer } from '../components/layout/Footer';
 
@@ -13,6 +16,7 @@ export const HomePage: React.FC = () => {
             <Header />
             <main>
                 <Hero />
+                <HomeSecondSection />
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <BrandIntro />
                 </div>
@@ -20,8 +24,12 @@ export const HomePage: React.FC = () => {
                     <BrandStory />
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000">
+                    <Alkalinewater />
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <LeadingChange />
                 </div>
+                {/* <HomeFifthSection /> */}
                 {/* <div data-aos="fade-up" data-aos-duration="1000">
                     <BlogSection />
                 </div> */}

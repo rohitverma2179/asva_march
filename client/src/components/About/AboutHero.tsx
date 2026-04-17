@@ -1,48 +1,35 @@
 import React from "react";
-import aboutHero from "../../assets/Aboutimages/ASVA.png";
+import aboutHero from "../../assets/Aboutimages/newimg/aboutHeromain.png";
 
 const AboutHero: React.FC = () => {
   return (
-    <section className="w-full bg-white overflow-x-hidden pt-10 pb-10 lg:pt-[100px] lg:pb-[100px]">
-      <div className="lg:hidden flex flex-col items-center px-6 text-center space-y-6">
-        <h1 className="font-['Kalnia'] font-medium text-[36px] leading-tight text-black">
-          Pure Alkaline Water for Better Everyday Hydration
-        </h1>
-        <p className="font-['Kantumruy'] font-normal text-[16px] text-[#393939]">
-          ASVA offers high-quality alkaline water with balanced pH, delivering clean, safe, and refreshing hydration for everyday wellness.
-        </p>
-        <img src={aboutHero} alt="About Hero" className="w-full max-w-[320px] rounded-[20px] shadow-lg" />
-      </div>
+    <section className="w-full  overflow-hidden py-10 md:py-12 lg:py-28  ">
+      <div className="max-w-[1280px] mx-auto px-6 md:px-12 lg:px-20">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          
+          {/* Content Side */}
+          <div className="lg:col-span-7 flex flex-col space-y-5 lg:space-y-6 animate-fadeIn">
+            <h1 className="font-['Kalnia'] font-medium text-[32px] md:text-[48px] lg:text-[54px] leading-[1.1] text-black tracking-tight">
+              Pure Alkaline Water for Better <br className="hidden sm:block" /> Every Day Hydration
+            </h1>
+            
+            <p className="font-['Kantumruy'] font-normal text-[15px] md:text-[17px] lg:text-[19px] text-[#393939] max-w-[500px] leading-relaxed">
+              ASVA offers high-quality alkaline water with balanced pH, delivering clean, safe, and refreshing hydration for everyday wellness.
+            </p>
+          </div>
 
-      <div
-        className="hidden lg:grid grid-cols-[minmax(40px,159px)_3px_minmax(300px,423px)_minmax(100px,241px)_minmax(100px,172px)_312px] grid-rows-[172px_29px_144px_139px]"
-      >
-        {/* Heading */}
-        <h1
-          className="col-start-2 col-end-6 row-start-1 font-['Kalnia'] font-medium text-[64px] leading-none tracking-[0%] m-0 p-0 text-black normal-case"
-        >
-          Pure Alkaline Water for Better <br /> Everyday Hydration
-        </h1>
-
-        {/* Paragraph */}
-        <p
-          className="col-start-3 col-end-4 row-start-2 font-['Kantumruy'] font-normal text-[20px]  text-[#393939] tracking-[0%] m-0 p-0"
-        >
-          {/* Ultra-premium iceberg water from Svalbard 
-          helping fight climate change . Ultra-premium <br />
-          iceberg water from Svalbard helping fight <br />
-          climate change */}
-
-          ASVA offers high-quality alkaline water <br /> with balanced pH, delivering clean, safe, <br /> and refreshing hydration for everyday wellness.
-        </p>
-
-        {/* Image */}
-        <div className="col-start-5 col-end-7 row-start-1 row-end-5 z-0">
-          <img
-            src={aboutHero}
-            alt="About Hero"
-            className="w-[484px] h-[484px] object-cover rounded-[20px] opacity-100"
-          />
+          {/* Image Side */}
+          <div className="lg:col-span-5 flex justify-center lg:justify-end">
+            <div className="relative group">
+              <div className="absolute -inset-4  rounded-[30px] transition-colors duration-500"></div>
+              
+              <img
+                src={aboutHero}
+                alt="About Hero"
+                className="relative w-full max-w-[300px] md:max-w-[380px] lg:max-w-[420px] aspect-square object-cover rounded-[20px]  transition-all duration-700 hover:scale-[1.02]"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>

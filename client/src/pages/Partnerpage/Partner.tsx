@@ -1,11 +1,12 @@
 import { Header } from '../../components/layout/Header'
 import { Footer } from '../../components/layout/Footer'
 import { FeaturedBanner } from '../../components/HomeSection/FeaturedBanner'
-import PartnerHero from '../../components/Partner/PartnerHero'
+// import PartnerHero from '../../components/Partner/PartnerHero'
 import PartnerExperience from '../../components/Partner/PartnerExperience'
 import HowItWorks from '../../components/Partner/HowItWorks'
 import PartnerSupport from '../../components/Partner/PartnerSupport'
 import ClientTestimonials from '../../components/Partner/ClientTestimonials'
+import PartnerHero from '../../components/Partner/Partnerhero'
 
 const Partner = () => {
   return (

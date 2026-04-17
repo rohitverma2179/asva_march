@@ -1,8 +1,8 @@
 import React from "react";
-import blog2 from "../../assets/blog/blog_2.jpg";
-import addsAsva from "../../assets/home/adds_asva.png";
-import grothImg from "../../assets/home/groth_section.png";
-import leadingBg from "../../assets/HomeImg/Leading_bg.png";
+import blog2 from "../../assets/partner/img_10.webp"
+import addsAsva from "../../assets/partner/img_5.png";
+import grothImg from "../../assets/partner/img_6.png";
+import leadingBg from "../../assets/partner/img_7.png";
 
 /**
  * PartnerSupport Component
@@ -20,8 +20,8 @@ const PartnerSupport: React.FC = () => {
             Support We Provide
           </span>
           <h2 className="font-['Kalnia'] font-medium text-[32px] sm:text-[44px] lg:text-[48px] xl:text-[40px] leading-[1.1] text-black">
-            Expert Care & <br />
-            Maintenance
+
+            Consistent Supply  <br /> & Brand Support
           </h2>
         </div>
 

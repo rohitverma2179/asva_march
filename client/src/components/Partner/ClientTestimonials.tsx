@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 // Replace these with local paths if preferred, using the generated IDs as placeholders for now
-const womanImg = "C:/Users/ROHIT/.gemini/antigravity/brain/bedbf2a5-dcae-4c76-841a-2f674772e225/woman_water_bottle_1776324528283.png";
-const bottleImg = "C:/Users/ROHIT/.gemini/antigravity/brain/bedbf2a5-dcae-4c76-841a-2f674772e225/bottle_on_grass_1776324561053.png";
+// const womanImg = "C:/Users/ROHIT/.gemini/antigravity/brain/bedbf2a5-dcae-4c76-841a-2f674772e225/woman_water_bottle_1776324528283.png";
+// const  = "C:/Users/ROHIT/.gemini/antigravity/brain/bedbf2a5-dcae-4c76-841a-2f674772e225/bottle_on_grass_1776324561053.png";
+
+import womanImg from "../../assets/partner/img_8.png";
+import bottleImg from "../../assets/partner/img_9.png";
 
 interface Testimonial {
   id: number;
@@ -109,10 +112,10 @@ const ClientTestimonials: React.FC = () => {
           {/* Right Column (Carousel) */}
           <div className="flex-1 space-y-0">
             {/* Carousel Buttons */}
-            <div className="flex justify-end gap-3">
+            <div className="flex justify-end gap-3 mb-4">
               <button
                 onClick={handlePrev}
-                className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
+                className="w-8 h-8 rounded-full border border-gray-200 flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -120,7 +123,7 @@ const ClientTestimonials: React.FC = () => {
               </button>
               <button
                 onClick={handleNext}
-                className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
+                className="w-8 h-8 rounded-full border border-gray-200 flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -129,7 +132,7 @@ const ClientTestimonials: React.FC = () => {
             </div>
 
             {/* Testimonial Cards List */}
-            <div className="space-y-2 relative h-[600px] overflow-hidden">
+            <div className="space-y-7 relative h-[600px] overflow-hidden">
               {/* Displaying 3 cards with staggered appearance */}
               {[0, 1, 2].map((offset) => {
                 const index = (activeIndex + offset) % testimonials.length;

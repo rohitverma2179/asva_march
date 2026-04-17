@@ -1,4 +1,5 @@
 import AboutHero from "../../components/About/AboutHero"
+import AboutHeroMain from "../../components/About/AboutHeroMain"
 import MissionVision from "../../components/About/MissionVision"
 import OurCommitment from "../../components/About/OurCommitment"
 import Ourstory from "../../components/About/Ourstory"
@@ -12,6 +13,7 @@ const About = () => {
   return (
     <div>
       <Header />
+      {/* <AboutHeroMain /> */}
       <AboutHero />
       <div className="w-full px-0 sm:px-10">
         <Whoweare />

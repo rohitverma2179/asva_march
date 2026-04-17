@@ -1,5 +1,5 @@
 import React from "react";
-import ourStoryBg from "../../assets/Aboutimages/ourstory.png";
+import ourStoryBg from "../../assets/Aboutimages/newimg/oursty.webp";
 
 const Ourstory: React.FC = () => {
     return (
@@ -43,7 +43,6 @@ In today's fast-paced lifestyle, imbalance is common. Fatigue, acidity, and poor
                 <div className="flex flex-col items-center mb-12 md:mb-16">
                     <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] leading-tight text-black mb-4 relative inline-block text-center">
                         Built with purpose. Designed for consistency.
-                        <div className="w-24 h-1 bg-[#FFC700] mx-auto mt-2"></div>
                     </h2>
                 </div>
 
