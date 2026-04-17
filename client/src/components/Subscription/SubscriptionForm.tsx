@@ -83,7 +83,7 @@ export const SubscriptionForm: React.FC = () => {
                         <span className="text-[10px] text-gray-400 font-medium uppercase tracking-wide">Asva Packaged Drinking Water</span>
                         <h3 className="text-xl md:text-2xl font-serif text-black mt-1 mb-2">Core Subscription Plans</h3>
                         <p className="text-xs text-justify text-gray-500 leading-relaxed mb-6">
-                            Choose the perfect plan for your household or business. Our 20-litre jars are delivered with hygiene and quality at the forefront.
+                            Choose the perfect plan for your household or business. Our 1-litre jars are delivered with hygiene and quality at the forefront.
                         </p>
 
                         <div className="space-y-4 mb-8">
