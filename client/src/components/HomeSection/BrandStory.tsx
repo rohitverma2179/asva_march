@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const BRAND_DATA = {
     tag: "Packaged Alkaline Water",
     title: "Bottles that fit Indian lifestyles.",
-    description: "From 200ml event bottles ASVA offers safe alkaline hydration formats for every use, home dining, clinics, gym refills, office pantries and hotel guests.",
+    description: "From 200ml event bottles ASVA offers safe alkaline hydration formats for every use, home dining, clinics, gym , office pantries and hotel guests.",
     image: brandWoman,
     cardLabel: "Alkaline Water Supply",
     cta: "Shop",

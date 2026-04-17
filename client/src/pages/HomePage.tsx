@@ -6,7 +6,7 @@ import { BrandIntro } from '../components/HomeSection/BrandIntro';
 import { BrandStory } from '../components/HomeSection/BrandStory';
 import Alkalinewater from '../components/HomeSection/Alkalinewater';
 import { LeadingChange } from '../components/HomeSection/LeadingChange';
-// import Alkalinewater from '../components/HomeSection/Alkalinewater';
+import USPHeader from '../components/HomeSection/USPHeader';
 import { FeaturedBanner } from '../components/HomeSection/FeaturedBanner';
 import { Footer } from '../components/layout/Footer';
 
@@ -29,7 +29,7 @@ export const HomePage: React.FC = () => {
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <LeadingChange />
                 </div>
-                {/* <HomeFifthSection /> */}
+                <USPHeader />
                 {/* <div data-aos="fade-up" data-aos-duration="1000">
                     <BlogSection />
                 </div> */}
