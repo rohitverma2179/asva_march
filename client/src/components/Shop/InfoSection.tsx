@@ -14,7 +14,7 @@ export const InfoSection: React.FC = () => {
             <b> Pure Water, Better India.</b>We make alkaline hydration simple
             and reliable for Indian homes and businesses through{" "}
             <b>
-              packaged alkaline water, refill jar subscriptions, and portable
+              packaged alkaline water subscriptions, and portable
               alkaline ionizer machines
             </b>{" "}
             under one accountable brand.

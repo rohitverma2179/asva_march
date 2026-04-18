@@ -64,7 +64,7 @@ export const BrandStory: React.FC = () => {
                             <span className="relative z-10">{BRAND_DATA.cta}</span>
                             <span className="w-12 h-[1px] bg-black transition-all group-hover:w-16"></span>
                             {/* Decorative dot */}
-                            <div className="absolute -bottom-2 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></div>
+                            {/* <div className="absolute -bottom-2 left-0 w-0 h-[2px] bg-blue-400 transition-all group-hover:w-full"></div> */}
                         </Link>
                     </div>
                 </div>

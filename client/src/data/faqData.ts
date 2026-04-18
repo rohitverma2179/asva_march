@@ -21,7 +21,7 @@ export const faqData: FAQItem[] = [
     id: 3,
     question: "3. Do you provide 1L subscriptions?",
     answer:
-      "Yes. We offer scheduled refill jar subscriptions with a deposit-return system in serviceable locations.",
+      "Yes. We offer scheduled bottle subscriptions with a deposit-return system in serviceable locations.",
   },
   {
     id: 4,

@@ -17,12 +17,12 @@ export const Footer: React.FC = () => {
                     {/* Left: Navigation */}
                     <nav className="flex flex-col gap-6 text-[16px] uppercase font-bold tracking-widest text-black mb-12 md:mb-6 w-full md:w-1/3">
                         <Link to="/" className="hover:text-blue-600  transition-colors">Home</Link>
-                        <Link to="/shop" className="hover:text-blue-600  transition-colors">Shop</Link>
-                        <Link to="/blog" className="hover:text-blue-600  transition-colors">Blog</Link>
-                        <Link to="/services" className="hover:text-blue-600  transition-colors">services</Link>
                         <Link to="/about" className="hover:text-blue-600  transition-colors">About</Link>
+                        <Link to="/shop" className="hover:text-blue-600  transition-colors">Shop</Link>
+                        <Link to="/services" className="hover:text-blue-600  transition-colors">services</Link>
                         <Link to="/partner" className="hover:text-blue-600  transition-colors">Partner</Link>
                         <Link to="/subscription" className="hover:text-blue-600  transition-colors">Subscription</Link>
+                        <Link to="/blog" className="hover:text-blue-600  transition-colors">Blog</Link>
                         <a href={reportPdf} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">Report</a>
                     </nav>
 
