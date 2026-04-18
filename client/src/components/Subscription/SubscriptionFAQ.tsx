@@ -104,11 +104,11 @@
 //         question: "Is ASVA safe and compliant?",
 //         answer: "Yes. ASVA follows FSSAI requirements and quality processes aligned with applicable safety and hygiene standards. Regular quality checks are performed to maintain product safety and consistency."
 //     },
-//     {
-//         id: "9",
-//         question: "Do you provide bottles with deposit return?",
-//         answer: "For refill jars and selected packs, a deposit may be applicable. Deposit terms are clearly shown on the product page and checkout."
-//     },
+    // {
+    //     id: "9",
+    //     question: "Do you provide bottles with deposit return?",
+    //     answer: "For refill jars and selected packs, a deposit may be applicable. Deposit terms are clearly shown on the product page and checkout."
+    // },
 //     {
 //         id: "10",
 //         question: "How can I contact ASVA support?",

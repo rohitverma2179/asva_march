@@ -12,7 +12,7 @@ export const HowItWorks: React.FC = () => {
             title: "Choose Product",
             desc: [
                 "Go to the “Shop Products” tab",
-                "Select bottles or jars"
+                "Select bottles "
             ],
             Icon: icon1,
             align: "right"

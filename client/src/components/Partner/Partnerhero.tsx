@@ -26,9 +26,9 @@ const PartnerHero: React.FC = () => {
         </div>
 
         {/* Call to Action Button */}
-        <button className="bg-black text-white px-10 py-3 rounded-[6px] font-['Kantumruy'] font-medium text-[16px] hover:bg-zinc-800 transition-all duration-300 shadow-xl active:scale-95">
+        {/* <button className="bg-black text-white px-10 py-3 rounded-[6px] font-['Kantumruy'] font-medium text-[16px] hover:bg-zinc-800 transition-all duration-300 shadow-xl active:scale-95">
           Apply Now
-        </button>
+        </button> */}
 
       </div>
     </section>

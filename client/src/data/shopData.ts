@@ -448,13 +448,13 @@ export const PRODUCTS: Product[] = [
     // Machines
     {
         id: '14',
-        title: 'ASVA Portable Alkaline Ionizer – HOME Series (Countertop)',
+        title: 'ASVA Portable Alkaline Ionizer',
         type: 'Machine',
         image: E_2,
         images: [E_2, E_2_2, E_2_3, E_2_4], // Replaced aswaMachine
         badges: ["Home"],
         author: 'ASVA Official Store',
-        price: 'MRP ₹18,999 | Offer ₹16,999',
+        price: 'MRP ₹18,999 | Offer ₹1.6 lakh',
         description: 'The ASVA Portable Alkaline Ionizer from the HOME Series is designed to deliver clean, pH balanced drinking water for daily health and wellness. Built for convenience and performance, this countertop system uses advanced filtration and alkalizing technology to enhance water quality while maintaining a smooth, refreshing taste.',
         subDescription: 'Designed for home use, this model features a Portable Alkaline Ionizer – HOME Series and comes in a compact <b>Countertop</b> configuration, making it easy to install and operate without complex setup. With a focus on reliability, consistency, and ease of use, it offers a practical solution for families seeking continuous alkaline hydration.',
         tagline: 'Advanced Alkaline Water Technology for Everyday Home Wellness',

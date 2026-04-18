@@ -3,14 +3,14 @@ import React from "react";
 const MissionVision: React.FC = () => {
     return (
         <section className="w-full bg-white py-16 lg:py-24 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 overflow-hidden">
-            <div className="max-w-[1224px] mx-auto">
+            <div className="max-w-[1280px] mx-auto">
                 {/* Heading */}
                 <div className="flex flex-col items-center text-center mb-12 lg:mb-20 px-4">
                     <h2 className="font-['Kalnia'] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] leading-tight text-black mb-6">
                         Our Mission
                     </h2>
                     <p className="font-['Kantumruy'] text-[14px] leading-[1.6] text-[#393939] max-w-[600px]">
-                        Ultra-premium iceberg water from Svalbard helping fight climate change . Ultra-premium iceberg water from Svalbard helping fight climate change
+                        Clean, safe, and balanced alkaline water for everyday hydration. Supporting better hydration habits while maintaining high quality standards and consistency.
                     </p>
                 </div>
 
@@ -21,7 +21,8 @@ const MissionVision: React.FC = () => {
                     <div className="pr-0 lg:pr-16 flex flex-col space-y-8 px-4 sm:px-0">
                         <div>
                             <h3 className="font-['Kalnia'] text-[24px] lg:text-[32px] mb-4 text-black">
-                                Mission & Vision
+                                Our Mission to Deliver Clean Alkaline Water
+
                             </h3>
                             <p className="font-['Kantumruy'] text-[16px] leading-[1.6] text-[#393939]">
                                 Our mission is to deliver clean, safe, and balanced alkaline water that enhances everyday hydration and supports overall well-being.
@@ -51,7 +52,7 @@ const MissionVision: React.FC = () => {
                     <div className="pl-0 lg:pl-16 mt-0 flex flex-col space-y-8 px-4 sm:px-0">
                         <div>
                             <h3 className="font-['Kalnia'] text-[24px] lg:text-[32px] mb-4 text-black">
-                                Mission & Vision (Future Plans)
+                               Our Vision to Build a Trusted Hydration Brand
                             </h3>
                             <p className="font-['Kantumruy'] text-[16px] leading-[1.6] text-[#393939]">
                                 We aim to establish ASVA as a trusted name in the hydration industry.

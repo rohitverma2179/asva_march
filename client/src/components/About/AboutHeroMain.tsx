@@ -17,9 +17,9 @@ const AboutHeroMain: React.FC = () => {
         </p>
         
         {/* Call to Action */}
-        <button className="bg-black text-white px-12 py-4 rounded-[12px] font-bold text-[16px] tracking-wide hover:bg-[#1a1a1a] transition-all duration-300 shadow-xl hover:shadow-2xl active:scale-95 transform">
+        {/* <button className="bg-black text-white px-12 py-4 rounded-[12px] font-bold text-[16px] tracking-wide hover:bg-[#1a1a1a] transition-all duration-300 shadow-xl hover:shadow-2xl active:scale-95 transform">
           Apply Now
-        </button>
+        </button> */}
 
       </div>
     </section>

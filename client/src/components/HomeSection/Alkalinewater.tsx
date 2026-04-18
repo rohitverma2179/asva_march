@@ -1,26 +1,29 @@
 import React from 'react';
-import bottleImg from "../../assets/bottle_png_.png";
+// import bottleImg from "../../assets/bottle_png_.png";
+import first from "../../assets/Home/200 .png"
+import second from "../../assets/Home/500 .png"
+import third from "../../assets/Home/1 .png"
 import { motion } from 'framer-motion';
 
 const Alkalinewater: React.FC = () => {
   return (
-    <section className="relative w-full min-h-screen bg-white flex flex-col items-center justify-between py-16 lg:py-24 overflow-hidden">
+    <section className="relative w-full min-h-screen bg-white flex flex-col items-center justify-center gap-12 md:gap-16 lg:gap-24 py-16 lg:py-24 overflow-hidden">
       
       {/* Title */}
       <div className="relative z-10 text-center px-4">
-        <h2 className="font-['Kalnia'] text-[28px] md:text-[48px] lg:text-[60px] font-medium text-black">
+        <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] lg:text-[60px] font-medium text-black">
           Mineral Rich Alkaline Water
         </h2>
       </div>
 
       {/* Bottles Area */}
-      <div className="flex-1 w-full max-w-[1440px] relative flex items-center justify-center py-10">
+      <div className="w-full max-w-[1440px] relative flex items-center justify-center">
         
-        {/* Horizontal Dashed Guideline */}
-        <div className="absolute top-[55%] left-0 w-full h-0 border-t-[1.5px] border-dashed border-blue-400 opacity-40 z-0"></div>
+        {/* Horizontal Dashed Guideline - Only visible on desktop to maintain clean mobile layout */}
+        <div className="absolute top-[60%] left-0 w-full h-0 border-t-[1.5px] border-dashed border-blue-400 opacity-40 z-0 hidden md:block"></div>
 
         {/* Bottles Grid */}
-        <div className="grid grid-cols-3 gap-6 md:gap-12 lg:gap-24 items-end z-10 px-6 sm:px-12 w-full">
+        <div className="flex flex-col md:grid md:grid-cols-3 gap-16 md:gap-12 lg:gap-24 items-center md:items-end z-10 px-6 sm:px-12 w-full py-4 md:py-0">
           
           {/* 200ml Bottle */}
           <motion.div 
@@ -28,16 +31,16 @@ const Alkalinewater: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="flex flex-col items-center text-center group"
+            className="flex flex-col items-center text-center group w-full"
           >
             <img 
-              src={bottleImg} 
-              className="h-[180px] sm:h-[300px] lg:h-[400px] w-auto object-contain transition-transform duration-500 group-hover:scale-[1.05]" 
+              src={first} 
+              className="h-[220px] sm:h-[300px] lg:h-[400px] w-auto object-contain transition-transform duration-500 group-hover:scale-[1.05]" 
               alt="200mlBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
               <h4 className="font-['Kalnia'] text-xl md:text-2xl font-bold">200ml</h4>
-              <p className="font-['Kantumruy'] text-[10px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium">
+              <p className="font-['Kantumruy'] text-[12px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium px-4">
                 Events, Offices, & Kid-Friendly
               </p>
             </div>
@@ -49,16 +52,16 @@ const Alkalinewater: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex flex-col items-center text-center group"
+            className="flex flex-col items-center text-center group w-full"
           >
             <img 
-              src={bottleImg} 
-              className="h-[220px] sm:h-[360px] lg:h-[480px] w-auto object-contain transition-transform duration-500 group-hover:scale-[1.05]" 
+              src={second} 
+              className="h-[260px] sm:h-[360px] lg:h-[480px] w-auto object-contain transition-transform duration-500 group-hover:scale-[1.05]" 
               alt="500mlBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
               <h4 className="font-['Kalnia'] text-xl md:text-2xl font-bold">500ml</h4>
-              <p className="font-['Kantumruy'] text-[10px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium">
+              <p className="font-['Kantumruy'] text-[12px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium px-4">
                 Everyday Hydration
               </p>
             </div>
@@ -70,16 +73,16 @@ const Alkalinewater: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="flex flex-col items-center text-center group"
+            className="flex flex-col items-center text-center group w-full"
           >
             <img 
-              src={bottleImg} 
-              className="h-[280px] sm:h-[450px] lg:h-[600px] w-auto object-contain transition-transform duration-500 group-hover:scale-[1.05]" 
+              src={third} 
+              className="h-[320px] sm:h-[450px] lg:h-[600px] w-auto object-contain transition-transform duration-500 group-hover:scale-[1.05]" 
               alt="1LBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
               <h4 className="font-['Kalnia'] text-xl md:text-2xl font-bold">1L</h4>
-              <p className="font-['Kantumruy'] text-[10px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium">
+              <p className="font-['Kantumruy'] text-[12px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium px-4">
                 On-the-Go Hydration
               </p>
             </div>

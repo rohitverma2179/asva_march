@@ -13,7 +13,7 @@ export const productFAQData: FAQItem[] = [
     },
     {
         id: 3,
-        question: "How should I store the bottles/jars?",
+        question: "How should I store the bottles?",
         answer: "Store in a cool, dry place away from direct sunlight. Follow label instructions for best quality."
     },
     {
