@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import imgAsva from "../../assets/ASVA_Logo.png";
 import { Link } from "react-router-dom";
 import reportPdf from "../../assets/KEVVALI FOOD_AND_BEVERAGES_PRIVATE_LIMITED_0002.pdf";
+// import fssai from "../../assets/fssai.png"
 
 export const Footer: React.FC = () => {
   useEffect(() => {
@@ -88,6 +89,10 @@ export const Footer: React.FC = () => {
                 KEVVALI FOOD AND BEVERAGES <br /> PRIVATE LIMITED Shop No .4
                 Plot No .39 <br /> Ist FLR, DEEP Cinema Comp <br /> North West
                 Delhi -110052
+              </p>
+              <p className="md:text-right text-gray-600 flex">
+                {/* <span ><img src={fssai} className="f" alt="FSSAI Logo" /></span> */}
+                <p> <span className="text-16 font-bold"> Fssai No. </span> 23325001004840 </p>
               </p>
             </div>
 

@@ -39,10 +39,11 @@ const Alkalinewater: React.FC = () => {
               alt="200mlBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
-              <h4 className="font-['Kalnia'] text-xl md:text-2xl font-bold">200ml</h4>
-              <p className="font-['Kantumruy'] text-[12px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium px-4">
-                Events, Offices, & Kid-Friendly
+              <h4 className="font-['Kalnia'] text-2xl  font-bold">200ml</h4>
+              <p className="font-['Kalnia'] text-[16px] text-black font-bold  uppercase tracking-[0.2em] px-4">
+                ON THE GO
               </p>
+              <p className="font-['Kantumruy'] text-[14px]  text-black  font-medium px-4">Perfect for travel, meetings & short refreshment.</p>
             </div>
           </motion.div>
 
@@ -60,10 +61,11 @@ const Alkalinewater: React.FC = () => {
               alt="500mlBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
-              <h4 className="font-['Kalnia'] text-xl md:text-2xl font-bold">500ml</h4>
-              <p className="font-['Kantumruy'] text-[12px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium px-4">
-                Everyday Hydration
+               <h4 className="font-['Kalnia'] text-2xl  font-bold">500ml</h4>
+              <p className="font-['Kalnia'] text-[16px] text-black font-bold  uppercase tracking-[0.2em] px-4">
+               DAILY HYDRATION
               </p>
+              <p className="font-['Kantumruy'] text-[14px]  text-black  font-medium px-4">Ideal for daily use at work, gym or outdoor activities.</p>
             </div>
           </motion.div>
 
@@ -81,10 +83,11 @@ const Alkalinewater: React.FC = () => {
               alt="1LBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
-              <h4 className="font-['Kalnia'] text-xl md:text-2xl font-bold">1L</h4>
-              <p className="font-['Kantumruy'] text-[12px] md:text-[12px] text-gray-500 uppercase tracking-[0.2em] font-medium px-4">
-                On-the-Go Hydration
+              <h4 className="font-['Kalnia'] text-2xl  font-bold">1L</h4>
+              <p className="font-['Kalnia'] text-[16px] text-black font-bold  uppercase tracking-[0.2em] px-4">
+                FOR HOME & OFFICE
               </p>
+              <p className="font-['Kantumruy'] text-[14px]  text-black  font-medium px-4">Perfect for home, office and longer hydration needs.</p>
             </div>
           </motion.div>
 

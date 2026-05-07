@@ -8,6 +8,7 @@ import Alkalinewater from '../components/HomeSection/Alkalinewater';
 import { LeadingChange } from '../components/HomeSection/LeadingChange';
 import USPHeader from '../components/HomeSection/USPHeader';
 import { FeaturedBanner } from '../components/HomeSection/FeaturedBanner';
+import WhyAlkaline from '../components/HomeSection/WhyAlkaline';
 import { Footer } from '../components/layout/Footer';
 
 export const HomePage: React.FC = () => {
@@ -23,6 +24,9 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <BrandStory />
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <WhyAlkaline />
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <Alkalinewater />

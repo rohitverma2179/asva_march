@@ -1,12 +1,12 @@
 import React from 'react';
-import adsImgBg from "../../assets/home/adds_asva.png";
+import adsImgBg from "../../assets/HomeImg/GymAsva.png";
 import { Link } from 'react-router-dom';
 
 export const FeaturedBanner: React.FC = () => {
     return (
-        <section className="relative w-full h-[600px] bg-gray-900 overflow-hidden">
+        <section className="relative w-full h-[600px]  overflow-hidden">
             {/* Background */}
-            <div className="absolute inset-0 bg-[#1a2e25]">
+            <div className="absolute inset-0 bg-[#213029]">
                 {/* Abstract Pattern to simulate image texture */}
                 <div className="absolute inset-0 opacity-30 no-repeat bg-cover"
                     style={{

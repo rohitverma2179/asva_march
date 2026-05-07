@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 // import imgBottle from "../../assets/HomeImg/hero_1.png";
 // import imgBottle from "../../assets/bottle_png_.png";
-import imgBottle from "../../assets/home/hero_img_bottle.png";
+// import imgBottle from "../../assets/home/hero_img_bottle.png";
 import shape from "../../assets/HomeImg/shap.png";
 // import mashine from "../../assets/home/mashine_1.png";
 import { motion, AnimatePresence } from "framer-motion";
+import brandWoman from "../../assets/HomeImg/Hero-2.png";
 // import { image } from 'framer-motion/client';
 
 type HeroSlide = {
@@ -22,7 +23,7 @@ const heroSlides: HeroSlide[] = [
     // subDescription: ["FSSAI • IS Standards", "ISO 22000-based practices", "Regular lab testing", "Pan-India delivery"],
     // CTA 1: Shop Bottles & JarsCTA 2: Start Subscription
 
-    image: imgBottle,
+    image: brandWoman,
   },
   // {
   //     title: "Pure Hydration Premium Living",
@@ -45,8 +46,9 @@ export const Hero: React.FC = () => {
 
   return (
     <section className="relative min-h-[90vh] lg:min-h-screen pt-24 pb-12 overflow-hidden">
+      {/* Shape Background */}
       <div
-        className="absolute inset-0 overflow-hidden lg:mt-14 "
+        className="absolute inset-0 overflow-hidden lg:mt-14"
         style={{
           background: `url(${shape})`,
           backgroundRepeat: "no-repeat",
@@ -55,8 +57,17 @@ export const Hero: React.FC = () => {
         }}
       />
 
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-12 lg:py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      {/* Brand Woman Background */}
+      <div className="absolute inset-0 overflow-hidden lg:mt-14 flex items-center lg:items-end justify-center lg:justify-end pointer-events-none">
+        <img
+          src={brandWoman}
+          alt=""
+          className="w-[120%] lg:w-[800px] xl:w-[1050px] h-auto object-contain opacity-90 translate-y-32 lg:-translate-y-[140px]"
+        />
+      </div>
+
+      <div className="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-12 py-12 lg:py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8  items-center">
           <div className="relative space-y-6 lg:space-y-6">
             <div className="absolute left-4  lg:-left-16 top-[50%] hidden lg:block">
               <div className="text-3xl lg:text-4xl tracking-[0.08em] -rotate-90 origin-left font-['Kalnia'] font-medium whitespace-nowrap">
@@ -102,11 +113,11 @@ export const Hero: React.FC = () => {
                 transition={{ duration: 0.7 }}
                 className="relative"
               >
-                <img
+                {/* <img
                   src={heroSlides[activeSlide].image}
                   alt="ASVA Water Bottle"
-                  className="w-64 sm:w-[600px] lg:w-[520px] h-auto object-cover "
-                />
+                  className="w-96 sm:w-[700px] lg:w-[800px] xl:w-[1200px] h-auto object-cover "
+                /> */}
                 {/* <img
                                     src={heroSlides[activeSlide].image}
                                     alt="ASVA Water Bottle Small"
