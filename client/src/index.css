@@ -3,8 +3,8 @@
 @theme {
   --color-brand-blue: #e0f2f7;
   /* --font-serif: 'Times New Roman', Times, serif; */
-  --font-Kaisei: ' Kantumruy ', sans-serif;
-  --font-Kalnia: 'Kalnia', serif;
+  --font-Kalnia: 'Kalnia', serif;   /* heading */
+  --font-Kaisei: ' Kantumruy ', sans-serif;     /* paragraph */
 }
 
 body {
