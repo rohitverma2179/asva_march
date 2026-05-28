@@ -17,7 +17,7 @@ export const BlogPage: React.FC = () => {
             <main className="pt-24 md:pt-32">
                 {/* Page Title */}
                 <div className="container mx-auto px-6 md:px-12 mb-12">
-                    <h1 className="text-4xl md:text-6xl font-serif text-black font-medium leading-tight">
+                    <h1 className="text-display">
                         Blog
                     </h1>
                 </div>

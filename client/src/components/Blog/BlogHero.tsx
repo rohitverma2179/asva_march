@@ -10,7 +10,7 @@ export const BlogHero: React.FC<BlogHeroProps> = ({ post }) => {
         <section className="w-full max-w-4xl mx-auto px-4 md:px-0 mb-8 md:mb-12">
             {/* 1. Blog Title Section */}
             <h1
-                className="text-2xl tablet:text-3xl desktop:text-4xl lg:text-5xl font-serif text-center text-gray-900 mb-8 md:mb-12 leading-tight"
+                className="text-h1 text-center mb-8 md:mb-12"
                 dangerouslySetInnerHTML={{ __html: post.title }}
             />
 

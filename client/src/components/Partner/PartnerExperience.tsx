@@ -11,19 +11,18 @@ const PartnerExperience: React.FC = () => {
         {/* Header Section: Two-column layout matching the mockup */}
         <div className="flex flex-col lg:flex-row justify-between items-start mb-16 lg:mb-16 gap-12 lg:gap-20">
           <div className="flex-1">
-            <span className="font-['Kantumruy'] text-[12px] md:text-[14px] text-gray-500 block mb-4 font-medium uppercase tracking-widest opacity-80">
+            <span className="text-label block mb-4 opacity-80">
               Why Partner with Us
             </span>
-            <h1 className="font-['Kalnia'] font-medium text-[32px] sm:text-[44px] lg:text-[56px] xl:text-[64px] leading-[1] text-black">
+            <h1 className="text-display">
               Reliable Quality  <br />  Supply
             </h1>
           </div>
 
           <div className="flex-1 flex flex-col gap-4 lg:pt-0">
-            <p className="font-['Kantumruy'] font-normal text-[13px] sm:text-[14px] md:text-[15px] text-[#393939] leading-relaxed max-w-[580px]">
-
+            <p className="max-w-[580px]">
             </p>
-            <p className="font-['Kantumruy'] lg:pt-4 font-normal text-[13px] sm:text-[14px] md:text-[15px] text-[#393939] leading-relaxed max-w-[580px]">
+            <p className="lg:pt-4 max-w-[580px]">
               Partner with a brand focused on consistency and trust. Our systems ensure every bottle meets strict standards. Delivering reliable hydration your customers expect daily.
             </p>
           </div>

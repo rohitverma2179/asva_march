@@ -89,10 +89,10 @@ const ClientTestimonials: React.FC = () => {
           <div className="flex-[1.5] space-y-5">
             <div className="flex flex-col md:flex-row items-start md:items-end gap-8">
               <div className="space-y-6 flex-1">
-                <span className="font-['Kantumruy'] text-[16px] text-gray-400 block uppercase tracking-widest opacity-80 leading-[1] max-w-[246px]">
+                <span className="text-label block opacity-80 leading-[1] max-w-[246px] text-gray-400">
                   What Our Client Say About ASVA
                 </span>
-                <h2 className="font-['Kalnia'] font-medium text-[32px] sm:text-[32px] lg:text-[40px] leading-[1] text-black max-w-[474px]">
+                <h2 className="text-h1">
                   Bottles for Change <br />
                   aims to create <br />
                   awareness that
@@ -180,7 +180,7 @@ const ClientTestimonials: React.FC = () => {
                   >
                     <div>
                       {/* Stars */}
-                      <div className="flex gap-1 mb-3">
+                      <div className="flex  gap-1 mb-3">
                         {[1, 2, 3, 4, 5].map((s) => (
                           <svg
                             key={s}
@@ -192,7 +192,7 @@ const ClientTestimonials: React.FC = () => {
                         ))}
                       </div>
 
-                      <p className="font-['Kantumruy'] text-[13px] text-gray-700 leading-snug line-clamp-4 font-normal">
+                      <p className="line-clamp-4">
                         {testimonial.text}
                       </p>
                     </div>
@@ -205,7 +205,7 @@ const ClientTestimonials: React.FC = () => {
                         />
                       </div>
                       <div>
-                        <p className="font-['Kalnia'] font-medium text-[15px] text-black">
+                        <p className="text-h3">
                           {testimonial.name}
                         </p>
                       </div>

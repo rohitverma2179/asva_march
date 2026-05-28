@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
       <div className="container mx-auto px-5 md:px-16">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end">
           {/* Left: Navigation */}
-          <nav className="flex flex-col gap-6 text-[16px] uppercase font-bold tracking-widest text-black mb-12 md:mb-6 w-full md:w-1/3">
+          <nav className="flex flex-col gap-6  text-black mb-12 md:mb-6 w-full md:w-1/3">
             <Link to="/" className="hover:text-blue-600  transition-colors">
               Home
             </Link>
@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
               to="/services"
               className="hover:text-blue-600  transition-colors"
             >
-              services
+              Services
             </Link>
             <Link
               to="/partner"
@@ -70,11 +70,9 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Right: Contact & Address */}
-          <div className="w-full md:w-1/3 flex flex-col items-start md:items-end text-[16px] text-zinc-800 font-medium leading-relaxed">
+          <div className="w-full md:w-1/3 flex flex-col items-start md:items-end text-[14px] text-zinc-800 font-medium leading-relaxed">
             <div className="mb-4 flex flex-col items-start md:items-end">
-              <p className="uppercase font-bold tracking-widest mb-3 text-[14px] text-black">
-                Contact
-              </p>
+              <p className="text-label mb-3 text-black">Contact</p>
               <p className="hover:text-blue-600 cursor-pointer pb-1">
                 info@kevvali.com
               </p>
@@ -82,9 +80,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <div className="mb-6 flex flex-col items-start md:items-end">
-              <p className="uppercase font-bold tracking-widest mb-0 text-[14px] text-black">
-                Office Address
-              </p>
+              <p className="text-label mb-0 text-black">Office Address</p>
               <p className="md:text-right text-gray-600">
                 KEVVALI FOOD AND BEVERAGES <br /> PRIVATE LIMITED Shop No .4
                 Plot No .39 <br /> Ist FLR, DEEP Cinema Comp <br /> North West
@@ -92,7 +88,11 @@ export const Footer: React.FC = () => {
               </p>
               <p className="md:text-right text-gray-600 flex">
                 {/* <span ><img src={fssai} className="f" alt="FSSAI Logo" /></span> */}
-                <p> <span className="text-16 font-bold"> Fssai No. </span> 23325001004840 </p>
+                <p>
+                  {" "}
+                  <span className="text-16 font-bold"> Fssai No. </span>{" "}
+                  23325001004840{" "}
+                </p>
               </p>
             </div>
 

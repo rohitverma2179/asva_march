@@ -80,14 +80,14 @@ export const SubscriptionForm: React.FC = () => {
                 {/* Right: Form Card */}
                 <div className="lg:w-2/3 w-full max-w-2xl bg-white rounded-4xl border border-gray-200 p-4 md:p-10 shadow-sm">
                     <div className="mb-6">
-                        <span className="text-[10px] text-gray-400 font-medium uppercase tracking-wide">Asva Packaged Drinking Water</span>
-                        <h3 className="text-xl md:text-2xl font-serif text-black mt-1 mb-2">Core Subscription Plans</h3>
-                        <p className="text-xs text-justify text-gray-500 leading-relaxed mb-6">
+                        <span className="text-label">Asva Packaged Drinking Water</span>
+                        <h3 className="text-h2 mt-1 mb-2">Core Subscription Plans</h3>
+                        <p className="text-justify leading-relaxed mb-6">
                             Choose the perfect plan for your household or business. Our 1-litre bottles are delivered with hygiene and quality at the forefront.
                         </p>
 
                         <div className="space-y-4 mb-8">
-                            <label className="block text-[10px] font-bold text-gray-900 mb-2 uppercase tracking-widest">Select Plan</label>
+                            <label className="block text-label mb-2">Select Plan</label>
                             <div className="grid gap-3">
                                 {SUBSCRIPTION_PLANS.map(plan => (
                                     <button
@@ -100,8 +100,8 @@ export const SubscriptionForm: React.FC = () => {
                                             }`}
                                     >
                                         <div>
-                                            <h4 className="text-sm font-bold text-gray-900">{plan.name}</h4>
-                                            <p className="text-[10px] text-gray-500">{plan.details}</p>
+                                            <h4 className="text-lg">{plan.name}</h4>
+                                            <p className="text-[10px]">{plan.details}</p>
                                         </div>
                                         <div className="mt-2 md:mt-0 text-right">
                                             <div className="flex items-center gap-2 justify-end">
@@ -118,7 +118,7 @@ export const SubscriptionForm: React.FC = () => {
 
                     <div className="space-y-6 border border-gray-100 rounded-2xl p-6">
                         <div>
-                            <label className="block text-[10px] font-bold text-gray-900 mb-2 uppercase tracking-widest">Subscription Duration</label>
+                            <label className="block text-label mb-2">Subscription Duration</label>
                             <div className="flex flex-col md:flex-row gap-4">
                                 <div className="w-full">
                                     <p className="text-[9px] text-gray-400 mb-1 ml-2">Start Date</p>
@@ -148,7 +148,7 @@ export const SubscriptionForm: React.FC = () => {
 
                         <div className="pt-4 flex items-center justify-between border-t border-gray-100 mt-6">
                             <div>
-                                <p className="text-[10px] text-gray-400 uppercase tracking-widest">Selected: {selectedPlan.name}</p>
+                                <p className="text-[10px] uppercase tracking-widest">Selected: {selectedPlan.name}</p>
                                 <p className="text-xl font-bold text-gray-900">Total: ₹{selectedPlan.offerPrice}</p>
                             </div>
                             <button

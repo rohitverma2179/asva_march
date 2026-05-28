@@ -39,10 +39,10 @@ export const LeadingChange: React.FC = () => {
       <div className="max-w-[1440px] mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h2 className="font-['Kalnia'] font-medium text-5xl lg:text-6xl mb-4">
+          <h2 className="text-h1 mb-4">
             Leading through responsibility.
           </h2>
-          <p className="text-[16px] px-1.5 text-gray-600 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto px-1.5">
             ASVA is built for health and sustainability, using recyclable packs,
             supporting EPR-based recycling with authorised partners to reduce
             net plastic impact.
@@ -66,17 +66,17 @@ export const LeadingChange: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Left - Text Content */}
               <div className="space-y-6">
-                <h3 className="font-['Kalnia'] font-medium text-2xl lg:text-4xl leading-tight">
+                <h3 className="text-h2">
                   Bottles for Change
                 </h3>
                 <div className="space-y-4">
-                  <p className="text-[16px]  font-medium">
+                  <p className="font-medium">
                     Used plastic is not waste it has value. We enable collection
                     and responsible recycling through EPR frameworks so
                     customers can choose hydration without guilt.
                   </p>
                 </div>
-                <button className="font-['Kaisei_Decol'] font-medium text-lg lg:text-xl hover:underline mt-0 sm:mt-32">
+                <button className="text-h3 hover:underline mt-0 sm:mt-32">
                   Learn More
                 </button>
               </div>
@@ -87,19 +87,19 @@ export const LeadingChange: React.FC = () => {
               <div className="grid grid-cols-2 gap-4 lg:gap-6 pl-6">
                 {/* Metric Cells */}
                 <div className="space-y-2">
-                  <div className="font-['Kalnia'] font-medium text-3xl lg:text-4xl">
+                  <div className="text-h2">
                     100%
                   </div>
                   <div className="text-xs lg:text-sm">Recyclable Packaging</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="font-['Kalnia'] font-medium text-3xl lg:text-4xl">
+                  <div className="text-h2">
                     0%
                   </div>
                   <div className="text-xs lg:text-sm">Compromise on Safety</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="font-['Kalnia'] font-medium text-3xl lg:text-4xl">
+                  <div className="text-h2">
                     24×7
                   </div>
                   <div className="text-xs lg:text-sm">
@@ -107,7 +107,7 @@ export const LeadingChange: React.FC = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <div className="font-['Kalnia'] font-medium text-3xl lg:text-4xl">
+                  <div className="text-h2">
                     1 Goal
                   </div>
                   <div className="text-xs lg:text-sm">
@@ -115,7 +115,7 @@ export const LeadingChange: React.FC = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <div className="font-['Kalnia'] font-medium text-3xl lg:text-4xl">
+                  <div className="text-h2">
                     3R
                   </div>
                   <div className="text-xs lg:text-sm">
@@ -123,7 +123,7 @@ export const LeadingChange: React.FC = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <div className="font-['Kalnia'] font-medium text-3xl lg:text-4xl">
+                  <div className="text-h2">
                     Every Bottle
                   </div>
                   <div className="text-xs lg:text-sm">
@@ -131,13 +131,13 @@ export const LeadingChange: React.FC = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <div className="font-['Kalnia'] font-medium text-3xl lg:text-4xl">
+                  <div className="text-h2">
                     Pan-India
                   </div>
                   <div className="text-xs lg:text-sm">Eco Awareness Drive</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="font-['Kalnia'] font-medium text-3xl lg:text-4xl">
+                  <div className="text-h2">
                     Clean Future
                   </div>
                   <div className="text-xs lg:text-sm">Powered by You</div>

@@ -63,10 +63,10 @@ export const BlogSection: React.FC = () => {
       <div className="max-w-[1440px] mx-auto">
         {/* Section Title */}
         <div className="text-center mb-6">
-          <h2 className="font-['Kalnia'] font-medium text-5xl lg:text-6xl mb-2">
+          <h2 className="text-h1 mb-2">
             Water Blog
           </h2>
-          <p className="text-[16px] text-gray-600 max-w-120 mx-auto">
+          <p className="max-w-120 mx-auto">
             Alkaline science, safe drinking practices, subscription guidance and machine care, simple, evidence-based education.
           </p>
         </div>
@@ -110,11 +110,11 @@ export const BlogSection: React.FC = () => {
 
               {/* Content */}
               <div className="p-3 space-y-2">
-                <div className="font-['Inter'] text-xs text-gray-500">
+                <div className="text-label">
                    {post.author}
                 </div>
                 <h3
-                  className="font-['Kaisei_Decol'] font-xs text-xl"
+                  className="text-h3"
                   dangerouslySetInnerHTML={{ __html: post.title }}
                 />
                 <button className="font-['Kaisei_Decol'] font-medium text-lg hover:underline cursor-pointer mt-4">

@@ -1,5 +1,5 @@
 import React from 'react';
-import herosecond from '../../assets/bottleasvascale.webp';
+import herosecond from '../../assets/HomeImg/bottleasvascale.webp';
 
 const HomeSecondSection: React.FC = () => {
   return (

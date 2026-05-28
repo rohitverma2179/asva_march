@@ -10,10 +10,10 @@ const Ourstory: React.FC = () => {
                 style={{ backgroundImage: `url(${ourStoryBg})` }}
             >
                 <div className="bg-white p-8 flex flex-col justify-center shadow-2xl rounded-lg text-center">
-                    <h3 className="font-['Kalnia'] font-medium text-[20px] leading-tight mb-4 text-black">
+                    <h3 className="text-h3 mb-4">
                         Expert Care & Maintenance
                     </h3>
-                    <p className="font-['Kantumruy'] text-[14px] leading-relaxed text-[#393939] m-0">
+                    <p className="m-0">
                         Ultra-premium iceberg water from Svalbard helping fight climate change.
                     </p>
                 </div>
@@ -27,12 +27,12 @@ const Ourstory: React.FC = () => {
                 <div
                     className="col-start-3 row-start-2 bg-white p-[40px] flex flex-col justify-center shadow-[0_10px_30px_rgba(0,0,0,0.1)] w-[381px] h-[226px] z-10"
                 >
-                    <h3 className="font-['Kalnia'] font-medium text-[18px] leading-[120%] mb-[15px] capitalize-none" style={{ textTransform: 'none' }}>
+                    <h3 className="text-h3 mb-[15px] normal-case">
                         Water, reimagined for modern living.
                     </h3>
-                    <p className="font-['Kantumruy'] text-[12px] leading-[150%] text-[#393939] m-0">
+                    <p className="m-0">
                         ASVA began with a simple belief. Water should do more than just quench thirst.
-                        In today's fast-paced lifestyle, imbalance is common. Fatigue, acidity, and poor hydration have become routine. We saw the need for something better.
+                        In today's fast-paced lifestyle, imbalance is common. Fatigue, acidity, and poor hydration have become routine.
                     </p>
                 </div>
             </section>
@@ -41,7 +41,7 @@ const Ourstory: React.FC = () => {
             <section className="w-full bg-white py-16 md:py-24 px-6 sm:px-10 lg:px-20">
                 <div className="max-w-306 mx-auto">
                     <div className="flex flex-col items-center mb-12 md:mb-16">
-                        <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] leading-tight text-black mb-4 relative inline-block text-center">
+                        <h2 className="text-h1 mb-4 relative inline-block text-center">
                             Built with purpose. Designed for consistency.
                         </h2>
                     </div>
@@ -49,24 +49,24 @@ const Ourstory: React.FC = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
                         {/* Column 1 */}
                         <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
-                            <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">01.</span>
-                            <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
+                            <span className="text-h3 mb-4">01.</span>
+                            <p>
                                 Advanced purification forms the core of every bottle. Multi-stage filtration removes impurities with precision. While maintaining a clean and balanced composition. Ensuring safe, reliable hydration you can trust daily.
                             </p>
                         </div>
 
                         {/* Column 2 */}
                         <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
-                            <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">02.</span>
-                            <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
+                            <span className="text-h3 mb-4">02.</span>
+                            <p>
                                 Strict quality control is followed at every stage. From sourcing to filtration and final bottling. Each batch is monitored for safety and consistency. Delivering uniform standards across every bottle.
                             </p>
                         </div>
 
                         {/* Column 3 */}
                         <div className="flex flex-col p-6 rounded-xl hover:bg-gray-50 transition-colors duration-300">
-                            <span className="font-['Kalnia'] font-bold text-[24px]  mb-4">03.</span>
-                            <p className="font-['Kantumruy'] text-[15px] md:text-[16px] leading-relaxed text-[#393939]">
+                            <span className="text-h3 mb-4">03.</span>
+                            <p>
                                 Carefully developed for everyday consumption. A clean, smooth profile with balanced properties. Designed to support better hydration habits. Seamlessly fitting into modern, active lifestyles.
                             </p>
                         </div>

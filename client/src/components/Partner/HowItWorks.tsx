@@ -13,10 +13,10 @@ const HowItWorks: React.FC = () => {
       <div className="max-w-200 mx-auto">
         {/* Header */}
         <div className="text-center mb-24">
-          <h2 className="font-['Kalnia'] font-medium text-[36px] md:text-[42px] text-black mb-4">
+          <h2 className="text-h1 mb-4">
             How it works
           </h2>
-          <p className="font-['Kantumruy'] text-[15px] text-gray-500">
+          <p className="text-gray-500">
             Follow 3 easy and simple steps!
           </p>
         </div>
@@ -27,7 +27,7 @@ const HowItWorks: React.FC = () => {
           {/* Step 1: Apply */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-80">
             <div className="w-full md:w-1/2 flex justify-start">
-              <h3 className="font-['Kalnia'] font-medium text-[28px] md:text-[40px] text-black">
+              <h3 className="text-h2">
                 Apply
               </h3>
             </div>
@@ -35,7 +35,7 @@ const HowItWorks: React.FC = () => {
               <div className="w-16 h-16 flex items-center justify-center mb-4">
                 <img src={appyIcon} alt="Apply Icon" className="w-full h-full object-contain" />
               </div>
-              <p className="font-['Kantumruy'] text-[13px] md:text-[14px] text-gray-600 max-w-[280px]">
+              <p className="max-w-[280px]">
                 Select your required service or plan and book online in seconds.
               </p>
             </div>
@@ -47,12 +47,12 @@ const HowItWorks: React.FC = () => {
               <div className="w-16 h-16 flex items-center justify-center mb-4">
                 <img src={verificationImg} alt="Verification Icon" className="w-full h-full object-contain" />
               </div>
-              <p className="font-['Kantumruy'] text-[13px] md:text-[14px] text-gray-600 max-w-[280px]">
+              <p className="max-w-[280px]">
                 Our certified technician arrives at your doorstep equipped with genuine parts.
               </p>
             </div>
             <div className="w-full md:w-1/2 flex justify-start">
-              <h3 className="font-['Kalnia'] font-medium text-[28px] md:text-[40px] text-black">
+              <h3 className="text-h2">
                 Verification
               </h3>
             </div>
@@ -61,7 +61,7 @@ const HowItWorks: React.FC = () => {
           {/* Step 3: Onboarding */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-80">
             <div className="w-full md:w-1/2 flex justify-start">
-              <h3 className="font-['Kalnia'] font-medium text-[28px] md:text-[40px] text-black">
+              <h3 className="text-h2">
                 Onboarding
               </h3>
             </div>
@@ -69,7 +69,7 @@ const HowItWorks: React.FC = () => {
               <div className="w-16 h-16 flex items-center justify-center mb-4">
                 <img src={onboardingImg} alt="Onboarding Icon" className="w-full h-full object-contain" />
               </div>
-              <p className="font-['Kantumruy'] text-[13px] md:text-[14px] text-gray-600 max-w-[280px]">
+              <p className="max-w-[280px]">
                 Enjoy pure water with our ongoing maintenance and support guarantee.
               </p>
             </div>
@@ -77,7 +77,7 @@ const HowItWorks: React.FC = () => {
 
           {/* Start CTA */}
           <div className="text-center pt-0">
-            <span className="font-['Kalnia'] text-[24px] text-black opacity-80">Start</span>
+            <span className="text-h3 opacity-80">Start</span>
           </div>
         </div>
       </div>

@@ -8,12 +8,12 @@ const AboutHero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
           {/* Content Side */}
-          <div className="lg:col-span-7 flex flex-col space-y-5 lg:space-y-6 animate-fadeIn">
-            <h1 className="font-['Kalnia'] font-medium text-[32px] md:text-[48px] lg:text-[54px] leading-[1.1] text-black tracking-tight">
+          <div className="lg:col-span-7 flex flex-col space-y-5 lg:space-y-6 animate-fadeIn text-black">
+            <h1 className="text-h1">
               Pure Alkaline Water for Better <br className="hidden sm:block" /> Every Day Hydration
             </h1>
             
-            <p className="font-['Kantumruy'] font-normal text-[15px] md:text-[17px] lg:text-[19px] text-[#393939] max-w-[500px] leading-relaxed">
+            <p className="max-w-[500px]">
               ASVA offers high-quality alkaline water with balanced pH, delivering clean, safe, and refreshing hydration for everyday wellness.
             </p>
           </div>

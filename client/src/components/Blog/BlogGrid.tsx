@@ -36,11 +36,11 @@ export const BlogGrid: React.FC = () => {
 
                         {/* Content */}
                         <div className="flex flex-col gap-1 px-2">
-                            <div className="flex items-center gap-2 text-xs  text-gray-500 uppercase tracking-widest">
+                            <div className="flex items-center gap-2 text-label">
                                 <span>{post.author}</span>
                             </div>
                             <h3
-                                className="text-xl  font-serif text-gray-900 leading-snug group-hover:text-blue-900 transition-colors"
+                                className=" text-blog-title group-hover:text-blue-900 transition-colors"
                                 dangerouslySetInnerHTML={{ __html: post.title }}
                             />
                             <span className="text-sm font-bold  decoration-1 hover:underline hover:underline-offset-4 text-gray-900 mt-5">

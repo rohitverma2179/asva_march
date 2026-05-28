@@ -93,7 +93,7 @@ export const ServicesPage: React.FC = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-                        className="text-lg md:text-xl text-gray-200 max-w-2xl font-light"
+                        className="text-[14px] md:text-xl text-gray-200 max-w-2xl font-light"
                     >
                         Keep your water pure and your system running flawlessly with our premium installation and AMC plans.
                     </motion.p>

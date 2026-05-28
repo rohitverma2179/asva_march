@@ -9,18 +9,18 @@ const OurCommitment: React.FC = () => {
                 
                 {/* Left: Content */}
                 <div className="flex flex-col space-y-6 text-center lg:text-left">
-                    <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] leading-tight text-black">
+                    <h2 className="text-h1">
                         Our Commitment
                     </h2>
-                    <p className="font-['Kantumruy'] text-[16px] md:text-[18px] leading-[1.6] text-[#393939] max-w-[550px] mx-auto lg:mx-0">
+                    <p className="max-w-[550px] mx-auto lg:mx-0">
                         We are committed to maintaining the highest standards in consistent quality, safety , trust ,hygiene, and customer satisfaction. Every step from purification to packaging is designed to ensure that you receive water you can trust.
                     </p>
                 </div>
 
         {/* Right: Overlapping Images */}
-        <div className="relative h-[450px] flex items-center justify-center lg:justify-end mt-12 lg:mt-0">
+        <div className="relative h-[550px] flex items-center justify-center lg:justify-end mt-12 lg:mt-0">
           {/* Background Image (Top/Left shifted) */}
-          <div className="relative z-0 w-[200px] md:w-[450px] h-[260px] md:h-[450px] rounded-[10px] overflow-hidden  transform -translate-x-8 md:-translate-x-12 -translate-y-8 md:-translate-y-12">
+          <div className="relative z-0 w-[260px] md:w-[550px] h-[320px] md:h-[550px] rounded-[10px] overflow-hidden  transform -translate-x-8 md:-translate-x-12 -translate-y-8 md:-translate-y-12">
             <img 
               src={img1} 
               alt="Quality Assurance" 

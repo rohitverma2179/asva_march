@@ -43,18 +43,17 @@ export const SubscribeBanner: React.FC = () => {
                     {/* Content Column */}
                     <div className="w-full md:w-1/2 text-center md:text-left order-1 md:order-2">
                         <div className="inline-block px-4 py-1.5 bg-blue-50 rounded-full mb-6">
-                            <span className="text-[10px] md:text-xs font-bold text-blue-600 uppercase tracking-widest">
+                            <span className="text-label">
                                 Premium Hydration Experience
                             </span>
                         </div>
 
-                        <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif text-black mb-6 leading-[1.1]">
-                            {/* Subscribe <br className="hidden lg:block" /> & Save */}
-                            Subscription  Now
+                        <h1 className="text-display mb-6">
+                            Subscription Now
                         </h1>
                         
 
-                        <p className="text-base md:text-lg text-gray-600 mb-10 max-w-xl mx-auto md:mx-0 leading-relaxed">
+                        <p className="mb-10 max-w-xl mx-auto md:mx-0">
                             Get ASVA alkaline water delivered on schedule. Choose 1, 3, 6 or 12 months.
                         </p>
 

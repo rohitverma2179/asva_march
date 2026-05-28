@@ -23,7 +23,7 @@ export const BlogContent: React.FC<BlogContentProps> = ({ post }) => {
                             return (
                                 <p
                                     key={index}
-                                    className="mb-6 leading-relaxed text-lg text-gray-700"
+                                    className="mb-6"
                                     dangerouslySetInnerHTML={{ __html: block.text || '' }}
                                 />
                             );
@@ -31,7 +31,7 @@ export const BlogContent: React.FC<BlogContentProps> = ({ post }) => {
                             return (
                                 <h2
                                     key={index}
-                                    className="text-2xl md:text-3xl font-serif font-bold text-gray-900 mt-10 mb-6"
+                                    className="text-h2 mt-10 mb-6"
                                     dangerouslySetInnerHTML={{ __html: block.text || '' }}
                                 />
                             );
@@ -39,7 +39,7 @@ export const BlogContent: React.FC<BlogContentProps> = ({ post }) => {
                             return (
                                 <h3
                                     key={index}
-                                    className="text-xl md:text-2xl font-serif font-bold text-gray-900 mt-8 mb-4"
+                                    className="text-h3 mt-8 mb-4"
                                     dangerouslySetInnerHTML={{ __html: block.text || '' }}
                                 />
                             );

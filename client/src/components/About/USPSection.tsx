@@ -8,7 +8,7 @@ const USPSection: React.FC = () => {
       <div className="max-w-[1280px] mx-auto px-4 md:px-12 lg:px-20">
         {/* Heading */}
         <div className="flex justify-center mb-10 lg:mb-14">
-          <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] leading-tight text-black text-center">
+          <h2 className="text-h1 text-center">
             What Makes Us Different (USP)
           </h2>
         </div>
@@ -25,14 +25,14 @@ const USPSection: React.FC = () => {
 
                     {/* Right: Content */}
           <div className="flex flex-col space-y-6">
-            <p className="font-['Kantumruy'] text-[15px] md:text-[17px] leading-[1.6] text-[#393939] opacity-90">
+            <p className="opacity-90">
               ASVA alkaline water is carefully processed using advanced purification
               and enhancement techniques to ensure purity, safety, optimal
               pH balance and effectiveness.
             </p>
 
             <div className="p-6 bg-gray-50/50 rounded-[12px] border border-gray-100">
-              <h3 className="font-['Kalnia'] text-[20px] md:text-[24px] mb-6 text-black">
+              <h3 className="text-h3 mb-6">
                 Key features:
               </h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
@@ -46,9 +46,9 @@ const USPSection: React.FC = () => {
                 ].map((feature, index) => (
                   <li 
                     key={index} 
-                    className="font-['Kantumruy'] text-[14px] md:text-[16px] text-[#393939] flex items-start"
+                    className="flex text-sm items-start"
                   >
-                    <span className="font-bold mr-3 text-black opacity-40">{index + 1}.</span>
+                    <span className="  mr-3 text-black opacity-40">{index + 1}.</span>
                     {feature}
                   </li>
                 ))}

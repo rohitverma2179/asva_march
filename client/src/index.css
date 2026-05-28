@@ -2,51 +2,145 @@
 
 @theme {
   --color-brand-blue: #e0f2f7;
-  /* --font-serif: 'Times New Roman', Times, serif; */
-  --font-Kalnia: 'Kalnia', serif;   /* heading */
-  --font-Kaisei: ' Kantumruy ', sans-serif;     /* paragraph */
+
+  /* Typography Variables */
+  --font-heading: "Kalnia", serif;
+  --font-body: "Kantumruy", sans-serif;
+
+  /* Backward Compatibility */
+  --font-Kalnia: var(--font-heading);
+  --font-Kaisei: var(--font-body);
 }
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  background-color: white;
-  color: #1a1a1a;
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-}
+@layer base {
+  body {
+    @apply font-body bg-white text-gray-600 antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
 
-h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
-    font-family: var(--font-Kalnia) !important;
+  /* Global Headings Reset */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-medium tracking-tight;
     text-transform: capitalize;
+  }
+
+  /* Universal Paragraph/Text Reset */
+  p {
+    @apply font-body font-sans text-[14px] md:text-[14px] text-gray-600;
+  }
+
+  span,
+  a,
+  li,
+  ul {
+    @apply font-body;
+  }
+
+  /* Accessibility & Smoothing */
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }
 
-p ,span ,a ,li ,ul {
-  font-family: var(--font-Kaisei) !important;
-  /* color: #393939  */
-}
-/* p{
-  font-size: 15px !important  ;
-} */
+@layer utilities {
+  /* ==========================================================================
+     UNIVERSAL TYPOGRAPHY CLASSES
+     Use these instead of applying size/weight/font line-by-line
+     ========================================================================== */
 
-/* Custom Utilities if needed later */
-.glass-panel {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* Display & Hero Styles */
+  .text-display {
+    @apply font-heading text-5xl  md:text-5xl lg:text-7xl leading-[1.1] font-medium tracking-tight;
+  }
+
+  /* Semantic Heading Classes */
+  .text-h1 {
+    @apply font-heading text-4xl text-black md:text-5xl lg:text-6xl leading-[1.2] font-medium;
+  }
+
+  .text-h2 {
+    @apply font-heading text-3xl md:text-4xl lg:text-5xl leading-tight font-medium;
+  }
+
+  .text-h3 {
+    @apply font-heading text-xl text-black md:text-2xl  leading-snug font-medium;
+  }
+  .text-blog-title {
+    @apply font-heading text-xl text-black md:text-2xl lg:text-xl leading-snug font-medium;
+  }
+
+  .text-h4 {
+    @apply font-heading text-lg md:text-xl font-semibold;
+  }
+
+  /* Body Text Scaled System */
+  .text-body-lg {
+    @apply font-body text-lg md:text-xl leading-relaxed text-gray-700;
+  }
+
+  .text-body-base {
+    @apply font-body text-base leading-relaxed text-gray-700;
+  }
+
+  .text-body-sm {
+    @apply font-body text-sm leading-relaxed text-gray-600;
+  }
+
+  .text-body-xs {
+    @apply font-body text-xs leading-tight text-gray-500;
+  }
+
+  /* Special UI Elements */
+  .text-label {
+    @apply font-heading text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-gray-500;
+  }
+
+  .text-nav {
+    @apply font-body text-sm font-medium tracking-wide;
+  }
+
+  /* Helper Utility for glass panels */
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg;
+  }
 }
 
+/* Animations */
 @keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0px); }
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .animate-float-slow {
   animation: float 6s ease-in-out infinite;
 }
+
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-fadeIn {

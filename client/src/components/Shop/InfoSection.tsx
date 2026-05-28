@@ -8,14 +8,14 @@ export const InfoSection: React.FC = () => {
           Explore the complete ASVA Alkaline Ecosystem
         </h2>
 
-        <div className="text-[16px] md:text-[16px] text-gray-600 leading-relaxed space-y-4 max-w-[92.5%] mx-auto">
+        <div className="text-[14px] md:text-[14px] text-gray-600 leading-relaxed space-y-4 max-w-[92.5%] mx-auto">
           <p>
             ASVA by Kevvali is created with one purpose:{" "}
             <b> Pure Water, Better India.</b>We make alkaline hydration simple
             and reliable for Indian homes and businesses through{" "}
             <b>
-              packaged alkaline water subscriptions, and portable
-              alkaline ionizer machines
+              packaged alkaline water subscriptions, and portable alkaline
+              ionizer machines
             </b>{" "}
             under one accountable brand.
           </p>
@@ -25,7 +25,7 @@ export const InfoSection: React.FC = () => {
             quality controls, responsible packaging, and customer support
             designed for long-term trust.
           </p>
-          <ul className="list-disc pl-5 space-y-2 text-[16px] text-left inline-block">
+          <ul className="list-disc pl-5 space-y-2 text-[14px] sm:text-[14px] text-left inline-block">
             <li>
               <span className="font-bold text-gray-800">ASVA Bottles:</span>{" "}
               Premium alkaline water for on-the-go hydration and lifestyle
@@ -46,7 +46,7 @@ export const InfoSection: React.FC = () => {
               high-use daily hydration.
             </li>
           </ul>
-          <p className="pt-4 text-[16px]  italic">
+          <p className="pt-4 text-[14px]  italic">
             Choose the hydration model you prefer: <b> delivered water </b> or{" "}
             <b> water-on-demand </b> - ASVA supports both.
           </p>
@@ -56,7 +56,7 @@ export const InfoSection: React.FC = () => {
           <h3 className="text-2xl md:text-4xl font-serif text-black mb-4">
             Premium Water Solutions for Modern India
           </h3>
-          <p className="text-[16px]  text-gray-500 max-w-[92.5%] mx-auto">
+          <p className="text-[14px]  text-gray-500 max-w-[92.5%] mx-auto">
             Whether you are a home user, a clinic, a gym, an office pantry or a
             hospitality brand, ASVA offers reliable alkaline hydration in
             formats that fit your daily needs, backed by trust, compliance and

@@ -43,8 +43,8 @@ export const HowItWorks: React.FC = () => {
         <section className="py-20 bg-white">
             <div className="container mx-auto px-6 md:px-12">
                 <div className="text-center mb-20">
-                    <h2 className="text-3xl md:text-5xl font-serif text-black mb-4">How it works</h2>
-                    <p className="text-md font-bold text-gray-900">3 simple steps to get started</p>
+                    <h2 className="text-h1 mb-4">How it works</h2>
+                    <p className="font-bold">3 simple steps to get started</p>
                 </div>
 
                 <div className="flex flex-col gap-24 max-w-4xl mx-auto">
@@ -52,8 +52,8 @@ export const HowItWorks: React.FC = () => {
                         <div key={step.id} className={`flex flex-col md:flex-row items-center gap-12 md:gap-24 ${step.align === 'left' ? 'md:flex-row-reverse' : ''}`}>
                             {/* Text Side */}
                             <div className="flex-1 text-center md:text-left">
-                                <h3 className="text-2xl md:text-4xl font-serif text-black mb-6">
-                                   <span className='text-3xl'> STEP {step.id}</span><br />
+                                <h3 className="text-3xl mb-6">
+                                   <span className='text-lg'> STEP {step.id}</span><br />
                                     {step.title}
                                 </h3>
                             </div>
@@ -63,7 +63,7 @@ export const HowItWorks: React.FC = () => {
                                 <div className="w-48 h-32 relative mb-6 flex items-center justify-center">
                                     <img src={step.Icon} alt="" className="w-32 h-32 text-[#00b5ad]" />
                                 </div>
-                                <div className="text-lg text-gray-600 space-y-1">
+                                <div className="space-y-1">
                                     {step.desc.map((line, idx) => (
                                         <p key={idx}>• {line}</p>
                                     ))}

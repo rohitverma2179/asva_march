@@ -31,11 +31,11 @@ const Whoweare: React.FC = () => {
                 <div className="flex flex-col md:flex-row items-start gap-6 md:gap-10 md:px-8">
                   
                   <div className="flex-1">
-                    <p className="text-sm text-gray-500 mb-3 tracking-wide">
+                    <p className="text-label mb-3">
                       Who we are
                     </p>
 
-                    <h1 className="text-3xl md:text-5xl leading-tight text-gray-900 font-[500]">
+                    <h1 className="text-display text-black">
                       Hydration,
                       <br />
                       designed for
@@ -67,11 +67,11 @@ const Whoweare: React.FC = () => {
                   </div>
 
                   <div className="flex-1">
-                    <h2 className="text-lg md:text-xl text-gray-900 mb-4 font-[500]">
+                    <h2 className="text-h3 mb-4">
                       Precision in every drop.
                     </h2>
  
-                    <p className="text-sm text-gray-700 leading-relaxed italic">
+                    <p className="">
                       ASVA water is purified through advanced multi-stage processes.
                       <br />
                       Strict quality control ensures consistency across every batch.
@@ -99,11 +99,11 @@ const Whoweare: React.FC = () => {
                 <div className="flex flex-col md:flex-row items-start gap-6 md:gap-10 md:px-2">
                   
                   <div className="flex-1">
-                    <h2 className="text-lg md:text-xl mb-3 font-[500]">
+                    <h2 className="text-h3 mb-3">
                       Consistency you can trust.
                     </h2>
 
-                    <p className="text-gray-900 leading-tight">
+                    <p>
                      We maintain strict standards across purification and packaging.
                       <br />
                      Each batch is tested to ensure safety and reliability.
@@ -135,11 +135,11 @@ const Whoweare: React.FC = () => {
                   </div>
 
                   <div className="flex-1">
-                    <h2 className="text-lg md:text-xl font-[500] text-gray-900 mb-4">
+                    <h2 className="text-h3 mb-4">
                       Built for everyday living.
                     </h2>
 
-                    <p className="text-sm text-gray-700 leading-relaxed italic">
+                    <p className="">
                      Designed for daily consumption across lifestyles.
                       <br />
                      Whether at work, at the gym, or at home.

@@ -70,7 +70,7 @@ export const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8  items-center">
           <div className="relative space-y-6 lg:space-y-6">
             <div className="absolute left-4  lg:-left-16 top-[50%] hidden lg:block">
-              <div className="text-3xl lg:text-4xl tracking-[0.08em] -rotate-90 origin-left font-['Kalnia'] font-medium whitespace-nowrap">
+              <div className=" text-[32px] tracking-[0.08em] -rotate-90 origin-left whitespace-nowrap">
                 ÃSVA
               </div>
             </div>
@@ -84,11 +84,11 @@ export const Hero: React.FC = () => {
                 transition={{ duration: 0.6 }}
                 className="space-y-2 lg:ml-12 lg:space-y-4"
               >
-                <h1 className="font-['Kalnia'] font-medium text-5xl lg:text-7xl leading-tight whitespace-pre-line">
+                <h1 className="text-display whitespace-pre-line">
                   {heroSlides[activeSlide].title}
                 </h1>
 
-                <p className="text-xs lg:text-[16px] max-w-md text-gray-700">
+                <p className="max-w-md">
                   {heroSlides[activeSlide].description}
                 </p>
 

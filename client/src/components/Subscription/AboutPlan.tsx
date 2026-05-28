@@ -10,9 +10,9 @@ export const AboutAboutPlan: React.FC = () => {
             <div className="container mx-auto flex flex-col md:flex-row items-center gap-12 max-w-5xl">
                 {/* Left: Info Card */}
                 <div className="w-full md:w-1/2">
-                    <h2 className="text-3xl font-serif text-black mb-12">About Subscription Plan</h2>
+                    <h2 className="text-h2 mb-12">About Subscription Plan</h2>
                     <div className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100">
-                        <ul className="space-y-4 text-xs md:text-sm text-gray-800 font-medium leading-relaxed">
+                        <ul className="space-y-4 font-medium leading-relaxed">
                             <li className="flex gap-2">
                                 <span>•</span>
                                 <span>Pick bottles and choose pack size</span>

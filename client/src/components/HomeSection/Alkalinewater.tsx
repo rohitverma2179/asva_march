@@ -11,7 +11,7 @@ const Alkalinewater: React.FC = () => {
       
       {/* Title */}
       <div className="relative z-10 text-center px-4">
-        <h2 className="font-['Kalnia'] text-[32px] md:text-[48px] lg:text-[60px] font-medium text-black">
+        <h2 className="text-h1">
           Mineral Rich Alkaline Water
         </h2>
       </div>
@@ -39,11 +39,11 @@ const Alkalinewater: React.FC = () => {
               alt="200mlBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
-              <h4 className="font-['Kalnia'] text-2xl  font-bold">200ml</h4>
-              <p className="font-['Kalnia'] text-[16px] text-black font-bold  uppercase tracking-[0.2em] px-4">
+              <h4 className="text-h2">200ml</h4>
+              <p className="text-h3 uppercase tracking-[0.2em] px-4">
                 ON THE GO
               </p>
-              <p className="font-['Kantumruy'] text-[14px]  text-black  font-medium px-4">Perfect for travel, meetings & short refreshment.</p>
+              <p className="px-4">Perfect for travel, meetings & short refreshment.</p>
             </div>
           </motion.div>
 
@@ -61,11 +61,11 @@ const Alkalinewater: React.FC = () => {
               alt="500mlBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
-               <h4 className="font-['Kalnia'] text-2xl  font-bold">500ml</h4>
-              <p className="font-['Kalnia'] text-[16px] text-black font-bold  uppercase tracking-[0.2em] px-4">
+               <h4 className="text-h2">500ml</h4>
+              <p className="text-h3 uppercase tracking-[0.2em] px-4">
                DAILY HYDRATION
               </p>
-              <p className="font-['Kantumruy'] text-[14px]  text-black  font-medium px-4">Ideal for daily use at work, gym or outdoor activities.</p>
+              <p className="px-4">Ideal for daily use at work, gym or outdoor activities.</p>
             </div>
           </motion.div>
 
@@ -83,11 +83,11 @@ const Alkalinewater: React.FC = () => {
               alt="1LBottle" 
             />
             <div className="mt-6 md:mt-8 space-y-1">
-              <h4 className="font-['Kalnia'] text-2xl  font-bold">1L</h4>
-              <p className="font-['Kalnia'] text-[16px] text-black font-bold  uppercase tracking-[0.2em] px-4">
+              <h4 className="text-h2">1L</h4>
+              <p className="text-h3 uppercase tracking-[0.2em] px-4">
                 FOR HOME & OFFICE
               </p>
-              <p className="font-['Kantumruy'] text-[14px]  text-black  font-medium px-4">Perfect for home, office and longer hydration needs.</p>
+              <p className="px-4">Perfect for home, office and longer hydration needs.</p>
             </div>
           </motion.div>
 
@@ -104,7 +104,7 @@ const Alkalinewater: React.FC = () => {
                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                </svg>
             </div>
-            <p className="font-['Kantumruy'] text-[10px] md:text-[12px] font-bold uppercase tracking-[0.2em] text-[#393939] leading-tight">
+            <p className="text-label leading-tight">
               From the islands <br className="hidden md:block"/> of Fiji
             </p>
           </div>
@@ -115,7 +115,7 @@ const Alkalinewater: React.FC = () => {
                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
                </svg>
             </div>
-            <p className="font-['Kantumruy'] text-[10px] md:text-[12px] font-bold uppercase tracking-[0.2em] text-[#393939] leading-tight">
+            <p className="text-label leading-tight">
               100% natural <br className="hidden md:block"/> electrolytes
             </p>
           </div>
@@ -126,7 +126,7 @@ const Alkalinewater: React.FC = () => {
                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 21s-2-3-4-5m-2.34-2.34A8.99 8.99 0 1112 3a8.99 8.99 0 0110 8c0 1.66-.73 3.13-1.91 4.14" />
                </svg>
             </div>
-            <p className="font-['Kantumruy'] text-[10px] md:text-[12px] font-bold uppercase tracking-[0.2em] text-[#393939] leading-tight">
+            <p className="text-label leading-tight">
               Soft, smooth <br className="hidden md:block"/> taste
             </p>
           </div>
@@ -137,7 +137,7 @@ const Alkalinewater: React.FC = () => {
                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                </svg>
             </div>
-            <p className="font-['Kantumruy'] text-[10px] md:text-[12px] font-bold uppercase tracking-[0.2em] text-[#393939] leading-tight">
+            <p className="text-label leading-tight">
               perfectly <br className="hidden md:block"/> balanced 7.7 pH
             </p>
           </div>

@@ -6,10 +6,10 @@ const MissionVision: React.FC = () => {
             <div className="max-w-[1280px] mx-auto">
                 {/* Heading */}
                 <div className="flex flex-col items-center text-center mb-12 lg:mb-20 px-4">
-                    <h2 className="font-['Kalnia'] text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] leading-tight text-black mb-6">
+                    <h2 className="text-h1 text-center">
                         Our Mission
                     </h2>
-                    <p className="font-['Kantumruy'] text-[14px] leading-[1.6] text-[#393939] max-w-[600px]">
+                    <p className="max-w-[600px]">
                         Clean, safe, and balanced alkaline water for everyday hydration. Supporting better hydration habits while maintaining high quality standards and consistency.
                     </p>
                 </div>
@@ -22,9 +22,8 @@ const MissionVision: React.FC = () => {
                         <div>
                             <h3 className="font-['Kalnia'] text-[24px] lg:text-[32px] mb-4 text-black">
                                 Our Mission to Deliver Clean Alkaline Water
-
                             </h3>
-                            <p className="font-['Kantumruy'] text-[16px] leading-[1.6] text-[#393939]">
+                            <p>
                                 Our mission is to deliver clean, safe, and balanced alkaline water that enhances everyday hydration and supports overall well-being.
                             </p>
                         </div>
@@ -36,7 +35,7 @@ const MissionVision: React.FC = () => {
                                 "Making alkaline water accessible",
                                 "Building trust through consistency ,transparency and standards."
                             ].map((item, index) => (
-                                <li key={index} className="font-['Kantumruy'] text-[14px] text-[#393939] flex items-start">
+                                <li key={index} className="flex items-start">
                                     <span className="mr-2 font-bold">{index + 1}.</span>
                                     {item}
                                 </li>
@@ -51,10 +50,10 @@ const MissionVision: React.FC = () => {
                     {/* Right Column: Future Plans */}
                     <div className="pl-0 lg:pl-16 mt-0 flex flex-col space-y-8 px-4 sm:px-0">
                         <div>
-                            <h3 className="font-['Kalnia'] text-[24px] lg:text-[32px] mb-4 text-black">
+                            <h3 className="font-['Kalnia'] text-[24px] lg:text-[24px] mb-4 text-black">
                                Our Vision to Build a Trusted Hydration Brand
                             </h3>
-                            <p className="font-['Kantumruy'] text-[16px] leading-[1.6] text-[#393939]">
+                            <p>
                                 We aim to establish ASVA as a trusted name in the hydration industry.
                             </p>
                         </div>
@@ -68,7 +67,7 @@ const MissionVision: React.FC = () => {
                                 "Introducing innovative hydration solutions.",
                                 "Building a strong community around health and wellness."
                             ].map((item, index) => (
-                                <li key={index} className="font-['Kantumruy'] text-[14px] text-[#393939] flex items-start">
+                                <li key={index} className="flex items-start">
                                     <span className="mr-2 font-bold">{index + 1}.</span>
                                     {item}
                                 </li>

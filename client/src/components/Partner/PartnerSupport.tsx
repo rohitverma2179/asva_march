@@ -16,11 +16,10 @@ const PartnerSupport: React.FC = () => {
         
         {/* Header Section */}
         <div className="mb-10 lg:mb-2">
-          <span className="font-['Kantumruy'] text-[12px] md:text-[14px] text-gray-400 block mb-1 uppercase tracking-widest opacity-80">
+          <span className="text-label block mb-1 opacity-80 text-gray-400">
             Support We Provide
           </span>
-          <h2 className="font-['Kalnia'] font-medium text-[32px] sm:text-[44px] lg:text-[48px] xl:text-[40px] leading-[1.1] text-black">
-
+          <h2 className="text-h1">
             Consistent Supply  <br /> & Brand Support
           </h2>
         </div>
