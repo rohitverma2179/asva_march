@@ -18,7 +18,7 @@ const Alkalinewater: React.FC = () => {
 
       {/* Bottles Area */}
       <div className="w-full max-w-[1440px] relative flex items-center justify-center">
-        
+          
         {/* Horizontal Dashed Guideline - Only visible on desktop to maintain clean mobile layout */}
         <div className="absolute top-[60%] left-0 w-full h-0 border-t-[1.5px] border-dashed border-blue-400 opacity-40 z-0 hidden md:block"></div>
 

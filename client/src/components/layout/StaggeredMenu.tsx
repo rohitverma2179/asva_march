@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { X } from 'lucide-react';
 import { AiFillInstagram } from 'react-icons/ai';
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaWhatsapp } from 'react-icons/fa';
 
 interface StaggeredMenuProps {
     isOpen: boolean;
@@ -91,7 +91,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                                 className="mt-0 ml-7 flex gap-6"
                             >
                                 <a
-                                    href="https://instagram.com"
+                                    href="https://www.instagram.com/asva_by_kevvali"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="p-3 bg-gray-50 rounded-full hover:bg-[#00659e] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
@@ -99,12 +99,21 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                                     <AiFillInstagram size={24} />
                                 </a>
                                 <a
-                                    href="https://facebook.com"
+                                    href="https://www.facebook.com/profile.php?id=61584590330735"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="p-3 bg-gray-50 rounded-full hover:bg-[#00659e] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
                                 >
                                     <FaFacebook size={24} />
+                                </a>
+                                <a
+                                    href="https://wa.me/9193099919"        
+                                    target="_blank"   
+                                    rel="noopener noreferrer"          
+                                    aria-label="Chat with ASVA on WhatsApp"
+                                    className="p-3 bg-gray-50 rounded-full hover:bg-[#25D366] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
+                                >
+                                    <FaWhatsapp size={24} />
                                 </a>
                             </motion.div>
                         </nav>

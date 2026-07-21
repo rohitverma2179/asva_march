@@ -574,8 +574,8 @@ export const PRODUCTS: Product[] = [
     //     image: F_1, // Fallback to F_1 as F_3 is missing
     //     // images: ... Skipped because F_3 images are missing
     //     badges: ["Prime"],
-    //     author: 'ASVA Official Store',
-    //     price: 'MRP ₹4,499 | Offer ₹3,999',
+    //     author: 'ASVA Official Store',       
+    //     price: 'MRP ₹4,499 | Offer ₹3,999',    
     //     description: 'The ASVA Filter Set for the PRIME Series is designed to preserve the premium performance and refined water quality of your alkaline ionizer. Engineered with high efficiency filtration, it helps deliver consistently clean, pH balanced drinking water for everyday premium use.',
 
     //     subDescription: 'This <b> replacement pack </b> is specifically compatible with ASVA <b> PRIME Series </b> alkaline ionizers and is intended for routine filter replacement to maintain optimal performance. Designed for reliability and ease of installation, it supports uninterrupted access to high quality alkaline water in premium home and lifestyle environments.',

@@ -57,21 +57,23 @@ export const ProductFilters: React.FC<ProductFiltersProps> = ({
 }) => {
   const filters = [
     "All Products",
-    "Bottles",
-    "Machines",
+    "Akline Water",
+    "Akline Machines",
+    "Asva Sip",
+
   ];
 
   return (
     <nav className="w-full bg-white py-6">
-      <div className="max-w-[700px] mx-auto px-4">
+      <div className="max-w-[1100px] mx-auto px-4">
         
         {/* Center wrapper */}
-        <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+        <div className="grid grid-cols-2 gap-4 min-[1025px]:grid-cols-4 min-[1025px]:gap-6">
           {filters.map((filter) => (
             <button
               key={filter}
               onClick={() => onFilterChange(filter)}
-              className={`px-14 py-2.5 rounded-full cursor-pointer border text-sm font-medium transition-all duration-200
+              className={`w-full px-3 py-2.5 rounded-full cursor-pointer border text-sm font-medium transition-all duration-200
               ${
                 activeFilter === filter
                   ? "border-gray-800 text-black bg-white shadow-sm"
