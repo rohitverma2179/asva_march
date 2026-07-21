@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import imgAsva from "../../assets/ASVA_Logo.png";
 import { Link } from "react-router-dom";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import reportPdf from "../../assets/KEVVALI FOOD_AND_BEVERAGES_PRIVATE_LIMITED_0002.pdf";
 // import fssai from "../../assets/fssai.png"
 
@@ -76,7 +78,7 @@ export const Footer: React.FC = () => {
               <p className="hover:text-blue-600 cursor-pointer pb-1">
                 info@kevvali.com
               </p>
-              <p>9999407455</p>
+              <p>9193099919</p>
             </div>
 
             <div className="mb-6 flex flex-col items-start md:items-end">
@@ -96,17 +98,35 @@ export const Footer: React.FC = () => {
               </p>
             </div>
 
-            {/* <div className="flex gap-6 mt-2">
-                            <BsTwitterX  size={30} className="text-gray-800 hover:text-black cursor-pointer transition-colors" />
-                            <Instagram size={30} className="text-gray-800 hover:text-pink-600 cursor-pointer transition-colors" />
-                            <Facebook size={30} className="text-gray-800 hover:text-blue-700 cursor-pointer transition-colors" />
-                        </div> */}
-
-            {/* <div className="flex gap-6 mt-2">
-                            <BsTwitterX  size={30} className="text-gray-800 hover:text-black cursor-pointer transition-colors" />
-                            <Instagram size={30} className="text-gray-800 hover:text-pink-600 cursor-pointer transition-colors" />
-                            <Facebook size={30} className="text-gray-800 hover:text-blue-700 cursor-pointer transition-colors" />
-                        </div> */}
+            <div className="flex gap-4 mt-2">
+              <a
+                href="https://www.instagram.com/asva_by_kevvali"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Follow ASVA on Instagram"
+                className="p-3 rounded-full bg-white/70 text-gray-800 shadow-sm transition-all duration-300 hover:bg-[#00659e] hover:text-white hover:shadow-md"
+              >
+                <AiFillInstagram size={24} />
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61584590330735"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Follow ASVA on Facebook"
+                className="p-3 rounded-full bg-white/70 text-gray-800 shadow-sm transition-all duration-300 hover:bg-[#00659e] hover:text-white hover:shadow-md"
+              >
+                <FaFacebook size={24} />
+              </a>
+              <a
+                href="https://wa.me/9193099919"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Chat with ASVA on WhatsApp"
+                className="p-3 rounded-full bg-white/70 text-gray-800 shadow-sm transition-all duration-300 hover:bg-[#25D366] hover:text-white hover:shadow-md"
+              >
+                <FaWhatsapp size={24} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
