@@ -25,7 +25,7 @@ export const ShopPage: React.FC = () => {
         }
 
         if (activeFilter === 'Asva Sip') {
-            return product.type === 'Bottle' && !product.title.includes('Alkaline Water');
+            return product.type === 'Mineral Water' && !product.title.includes('Alkaline Water');
         }
 
         return false;

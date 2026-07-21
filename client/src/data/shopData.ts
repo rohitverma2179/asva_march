@@ -113,6 +113,10 @@ import I_2_2 from '../assets/shop_img/i_2/i_2_2.png';
 import I_2_3 from '../assets/shop_img/i_2/i_2_3.png';
 import I_2_4 from '../assets/shop_img/i_2/i_2_4.png';
 
+
+// alkine water img
+import alkine_img from '../assets/shop_img/asva_sip/asva-mini.png'
+
 export interface Product {
     id: string;
     title: string;
@@ -663,6 +667,37 @@ export const PRODUCTS: Product[] = [
     //     ],
     // },
     // Corporate / Event Products
+
+
+
+
+    
+     {
+        id: '23',
+        title: 'ASVA SIP Premium Mineral Water Bottle (500ml) – Pack of 24',
+        type: 'Mineral Water',
+        image: alkine_img,
+        images: [alkine_img],
+        badges: ["500ml"],
+        author: 'ASVA Official Store',
+        price: 'MRP ₹999 | Offer ₹899',
+         description: 'The ASVA 20L Alkaline Water Jar Stand is specially designed to provide stable, secure, and convenient support for ASVA 20-liter alkaline water jars. Made from high-quality steel, it ensures excellent strength, stability, and durability while making daily water dispensing more comfortable.',
+        subDescription: 'Designed for homes, offices, and commercial spaces, this <b> steel jar stand </b> offers a sturdy and practical solution for placing 20L water jars at a comfortable height. Its compact design allows easy placement while maintaining strength and long term durability.',
+        tagline: 'Strong and Reliable Support for Everyday Water Dispensing',
+       keyFeatures: [
+        'Designed specifically for ASVA 20L Alkaline Water jars',
+        'Premium <b>heavy-duty steel construction</b> for long-lasting durability',
+        'Stable and balanced design for safe jar placement',
+        'Comfortable dispensing height for everyday use',
+        'Rust-resistant finish for extended life',
+        'Ideal for homes, offices, schools, hospitals, and commercial spaces',
+        'Compact and space-saving design',
+        'Easy to clean and maintain',
+    ],
+    },
+
+
+    
 
 
 ];
