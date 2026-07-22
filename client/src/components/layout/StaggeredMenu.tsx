@@ -13,7 +13,9 @@ interface StaggeredMenuProps {
 const menuItems = [
     { title: 'Home', path: '/' },
     { title: 'About', path: '/about' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
-    { title: 'Shop', path: '/shop' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
+    { title: 'Alkaline Water', path: '/shop?category=Alkaline%20Water' },
+    { title: 'Alkaline Machines', path: '/shop?category=Alkaline%20Machines' },
+    { title: 'Asva Sip', path: '/shop?category=ASVA%20Sip' },
     { title: 'Services', path: '/services' },
     // { title: 'ProductPage', path: '/productpage' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
     { title: 'Partner', path: '/partner' }, // Changed from /ProductPage to /shop based on LuShoppingCart link in Header
@@ -77,7 +79,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                                         <span className="text-sm font-bold text-[#00659e] opacity-0 group-hover:opacity-100 transition-all -translate-x-4 group-hover:translate-x-0">
                                             0{index + 1}
                                         </span>
-                                        <span className="text-4xl sm:text-3xl font-xs text-gray-900 group-hover:text-[#00659e] transition-colors duration-300">
+                                        <span className="text-base lg:text-2xl font-xs text-gray-900 group-hover:text-[#00659e] transition-colors duration-300">
                                             {item.title}
                                         </span>
                                     </Link>

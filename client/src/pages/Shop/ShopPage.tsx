@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Header } from '../../components/layout/Header';
 import { Footer } from '../../components/layout/Footer';
 import { ShopBanner } from '../../components/Shop/ShopBanner';
@@ -11,20 +12,28 @@ import { PRODUCTS } from '../../data/shopData';
 import { faqData } from '../../data/faqData';
 
 export const ShopPage: React.FC = () => {
-    const [activeFilter, setActiveFilter] = useState('All Products');         
+    const [searchParams, setSearchParams] = useSearchParams();
+    const requestedCategory = searchParams.get('category');
+    const activeFilter = ['Alkaline Water', 'Alkaline Machines', 'ASVA Sip'].includes(requestedCategory ?? '')
+        ? requestedCategory!
+        : 'All Products';
+
+    const handleFilterChange = (filter: string) => {
+        setSearchParams(filter === 'All Products' ? {} : { category: filter });
+    };
 
     const filteredProducts = PRODUCTS.filter((product) => {
         if (activeFilter === 'All Products') return true;
 
         if (activeFilter === 'Alkaline Water') {
-            return product.type === 'Bottle' && product.title.includes('Alkaline Water');
+            return product.type === 'Bottle';
         }
 
         if (activeFilter === 'Alkaline Machines') {
             return product.type === 'Machine';
         }
 
-        if (activeFilter === 'Asva Sip') {
+        if (activeFilter === 'ASVA Sip') {
             return product.type === 'Mineral Water' && !product.title.includes('Alkaline Water');
         }
 
@@ -38,12 +47,14 @@ export const ShopPage: React.FC = () => {
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <ShopBanner />
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <ProductFilters
-                        activeFilter={activeFilter}
-                        onFilterChange={setActiveFilter}
-                    />
-                </div>
+                {activeFilter === 'All Products' && (
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <ProductFilters
+                            activeFilter={activeFilter}
+                            onFilterChange={handleFilterChange}
+                        />
+                    </div>
+                )}
                 <div data-aos="fade-up" data-aos-duration="1000">
 
                     <div className="container mx-auto px-2 md:px-12 pb-20">

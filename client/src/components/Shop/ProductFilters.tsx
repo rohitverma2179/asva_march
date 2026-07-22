@@ -59,7 +59,7 @@ export const ProductFilters: React.FC<ProductFiltersProps> = ({
     "All Products",
     "Alkaline Water",
     "Alkaline Machines",
-    "Asva Sip",
+    "ASVA Sip",
 
   ];
 

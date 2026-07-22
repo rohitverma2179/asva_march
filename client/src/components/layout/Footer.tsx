@@ -26,8 +26,14 @@ export const Footer: React.FC = () => {
             >
               About
             </Link>
-            <Link to="/shop" className="hover:text-blue-600  transition-colors">
-              Shop
+            <Link to="/shop?category=Alkaline%20Water" className="text-[15px] hover:text-blue-600 transition-colors">
+              Alkaline Water
+            </Link>
+            <Link to="/shop?category=Alkaline%20Machines" className="text-[15px] hover:text-blue-600 transition-colors">
+              Alkaline Machines
+            </Link>
+            <Link to="/shop?category=ASVA%20Sip" className="text-[15px] hover:text-blue-600 transition-colors">
+              ASVA Sip
             </Link>
             <Link
               to="/services"
