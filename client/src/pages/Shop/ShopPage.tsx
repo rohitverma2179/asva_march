@@ -16,11 +16,11 @@ export const ShopPage: React.FC = () => {
     const filteredProducts = PRODUCTS.filter((product) => {
         if (activeFilter === 'All Products') return true;
 
-        if (activeFilter === 'Akline Water') {
+        if (activeFilter === 'Alkaline Water') {
             return product.type === 'Bottle' && product.title.includes('Alkaline Water');
         }
 
-        if (activeFilter === 'Akline Machines') {
+        if (activeFilter === 'Alkaline Machines') {
             return product.type === 'Machine';
         }
 
