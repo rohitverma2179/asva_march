@@ -43,13 +43,13 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                         animate={{ x: 0 }}
                         exit={{ x: '-100%' }}
                         transition={{ type: 'spring', damping: 30, stiffness: 300 }}
-                        className="fixed top-0 left-0 h-full w-[320px] sm:w-[450px] bg-white z-50 shadow-2xl flex flex-col overflow-hidden"
+                        className="fixed top-0 left-0 h-full w-[290px] sm:w-[400px] bg-white z-50 shadow-2xl flex flex-col overflow-hidden"
                     >
                         {/* Background elements for premium look */}
                         <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-blue-50 rounded-full opacity-50 blur-3xl pointer-events-none" />
                         <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 bg-blue-50 rounded-full opacity-50 blur-3xl pointer-events-none" />
 
-                        <div className="p-8 flex justify-end relative z-10">
+                        <div className=" p-5 md:p-8 flex justify-end relative z-10">
                             <button
                                 onClick={onClose}
                                 className="p-3 bg-gray-50 hover:bg-gray-100 rounded-full transition-all duration-300 transform hover:rotate-90"
@@ -59,10 +59,11 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                             </button>
                         </div>
 
-                        <nav className="flex-1 px-12 sm:px-16 pt-0 flex flex-col gap-8 relative z-10">
+                        <nav className="flex-1 min-h-0 px-10 sm:px-16 py-2 flex flex-col relative z-10">
                             {menuItems.map((item, index) => (
                                 <motion.div
                                     key={item.title}
+                                    className="flex-1 flex items-center"
                                     initial={{ opacity: 0, x: -50 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{
@@ -79,7 +80,7 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                                         <span className="text-sm font-bold text-[#00659e] opacity-0 group-hover:opacity-100 transition-all -translate-x-4 group-hover:translate-x-0">
                                             0{index + 1}
                                         </span>
-                                        <span className="text-base lg:text-2xl font-xs text-gray-900 group-hover:text-[#00659e] transition-colors duration-300">
+                                        <span className="relative inline-block pb-2 mb-2 text-base lg:text-2xl font-xs text-gray-900 group-hover:text-[#00659e] transition-colors duration-300 after:absolute after:left-0 after:bottom-0 after:h-px after:w-0 after:bg-[#00659e] after:transition-all after:duration-300 group-hover:after:w-full">
                                             {item.title}
                                         </span>
                                     </Link>
@@ -90,32 +91,32 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.1 * menuItems.length + 0.3 }}
-                                className="mt-0 ml-7 flex gap-6"
+                                className="mt-0 ml-7 flex gap-4 lg:gap-6"
                             >
                                 <a
                                     href="https://www.instagram.com/asva_by_kevvali"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="p-3 bg-gray-50 rounded-full hover:bg-[#00659e] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
+                                    className="p-2 lg:p-3 bg-gray-50 rounded-full hover:bg-[#00659e] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
                                 >
-                                    <AiFillInstagram size={24} />
+                                    <AiFillInstagram className="h-5 w-5 lg:h-6 lg:w-6" />
                                 </a>
                                 <a
                                     href="https://www.facebook.com/profile.php?id=61584590330735"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="p-3 bg-gray-50 rounded-full hover:bg-[#00659e] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
+                                    className="p-2 lg:p-3 bg-gray-50 rounded-full hover:bg-[#00659e] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
                                 >
-                                    <FaFacebook size={24} />
+                                    <FaFacebook className="h-5 w-5 lg:h-6 lg:w-6" />
                                 </a>
                                 <a
                                     href="https://wa.me/9193099919"        
                                     target="_blank"   
                                     rel="noopener noreferrer"          
                                     aria-label="Chat with ASVA on WhatsApp"
-                                    className="p-3 bg-gray-50 rounded-full hover:bg-[#25D366] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
+                                    className="p-2 lg:p-3 bg-gray-50 rounded-full hover:bg-[#25D366] hover:text-white transition-all duration-300 group shadow-sm hover:shadow-md"
                                 >
-                                    <FaWhatsapp size={24} />
+                                    <FaWhatsapp className="h-5 w-5 lg:h-6 lg:w-6" />
                                 </a>
                             </motion.div>
                         </nav>
@@ -126,10 +127,9 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({ isOpen, onClose })
                             transition={{ delay: 0.8 }}
                             className="p-12 sm:px-16 relative z-10"
                         >
-                            <div className="h-px w-full bg-gray-100 mb-8" />
-                            <p className="text-gray-400 text-xs font-medium tracking-widest uppercase mb-2">Contact Us</p>
-                            <p className="text-gray-900 font-bold mb-6">hello@asva.com</p>
-                            <p className="text-gray-400 text-[10px] uppercase tracking-tighter italic">© 2024 ASVA WATER SYSTEM ADVISORS. ALL RIGHTS RESERVED.</p>
+                            <p className="text-gray-400 text-[10px] lg:text-xs font-medium tracking-widest uppercase mb-2">Contact Us</p>
+                            <p className="text-sm lg:text-base text-gray-900 font-bold mb-3">hello@asva.com</p>
+                            <p className="text-gray-400 text-[9px] lg:text-[10px] uppercase tracking-tighter italic">© 2024 ASVA WATER SYSTEM ADVISORS. ALL RIGHTS RESERVED.</p>
                         </motion.div>
                     </motion.div>
                 </>
